@@ -1,0 +1,690 @@
+{
+  "parts": {
+    "components": {
+      "brandsSection": {
+        "label": "Marques & Produits",
+        "title": "Bien plus que des\nvéhicules.",
+        "desc": "Nous commercialisons également des véhicules Mitsubishi, Isuzu, Suzuki, des groupes électrogènes, des motos Yamaha et bien plus encore.",
+        "callout": "Nous gérons aussi l'exportation de produits locaux, industriels et de diverses marchandises à l'international.",
+        "brands": [
+          { "name": "Toyota", "icon": "🚗" },
+          { "name": "Mitsubishi", "icon": "🚙" },
+          { "name": "Isuzu", "icon": "🚛" },
+          { "name": "Suzuki", "icon": "🛵" },
+          { "name": "Yamaha", "icon": "🏍️" },
+          { "name": "Groupes Électrogènes", "icon": "⚡" }
+        ]
+      },
+      "achievements": {
+  "title": "Nos Réalisations",
+  "description": "Découvrez nos projets récents et notre expertise en action à travers ces étapes marquantes.",
+  "officialBadge": "Livraison Officielle",
+  "videoLabel": "Vidéo",
+  "playCta": "Voir la Vidéo →",
+  "partnerLabel": "Devenez un Partenaire",
+  "trustText": "Si un partenaire nous fait confiance, pourquoi pas vous ?",
+  "companyDesc": "FAMATESS COMPANY accompagne les institutions, les entreprises et les particuliers dans l'acquisition et la livraison de véhicules neufs dans tout le Cameroun.",
+  "media": {
+    "mainImage": "/Assets/elecamImage.jpg",
+    "video1": "/Assets/elecam1.mp4", 
+    "video2": "/Assets/elecam2.mp4"
+  },
+  "items": {
+    "partner": {
+      "title": "Installation Partenaire",
+      "description": "Dans le cadre de nos activités de vente et de livraison de véhicules neufs, FAMATESS COMPANY a assuré la livraison d'une flotte de véhicules à un partenaire à Douala — un partenaire institutionnel de premier plan."
+    }
+  }
+},
+      "partners": {
+        "eyebrow": "Nos Partenaires",
+        "heading": "Ils nous font confiance",
+        "list": [
+          { "name": "Toyota", "logo": "Assets/toyota-no-bg.png" },
+          { "name": "Mitsubishi", "logo": "Assets/mitsubishi-no-bg.png" },
+          { "name": "Isuzu", "logo": "Assets/isuzu-no-bg.png" },
+          { "name": "Suzuki", "logo": "Assets/suzuki-no-bg.png" },
+          { "name": "Yamaha", "logo": "Assets/yamaha.png" },
+          { "name": "Caterpillar", "logo": "Assets/cat.png" }
+        ]
+      },
+      "localisation": {
+        "labelLocation": "Localisation",
+        "titleLocation": "Retrouvez-nous à",
+        "highlightLocation": "Yaoundé-Ekoumdoum.",
+        "locations": [
+          { "icon": "📍", "label": "Adresse", "val": "Yaoundé-Ekoumdoum, à côté de l'Hôtel Iris" },
+          { "icon": "🌍", "label": "Ville", "val": "Yaoundé, Cameroun" },
+          { "icon": "9", "label": "Horaires", "val": "Lundi – Samedi : 08:00 – 18:00" }
+        ],
+        "labelContact": "Contact Direct",
+        "titleContact": "Contactez-nous",
+        "highlightContact": "dès maintenant.",
+        "contacts": [
+          { "icon": "📞", "label": "Téléphone", "val": "+237 691 455 677" },
+          { "icon": "💬", "label": "WhatsApp", "val": "+237 671 893 467" },
+          { "icon": "✉️", "label": "Email", "val": "famatesscompanysa@gmail.com" },
+          { "icon": "⚡", "label": "Disponibilité", "val": "Devis rapide — Disponibilité immédiate" }
+        ]
+      },
+      "vehicles": {
+        "header": {
+          "label": "Catalogue Complet",
+          "line1": "Nous fournissons",
+          "line2": "pour vos besoins."
+        },
+        "count": "{count} véhicules affichés",
+        "categories": [
+          { "key": "all", "label": "Tous les véhicules" },
+          { "key": "light", "label": "Véhicules Légers" },
+          { "key": "heavy", "label": "Engins Lourds" }
+        ],
+        "items": [
+          {
+            "id": 1,
+            "category": "Véhicules Légers",
+            "categoryKey": "light",
+            "name": "Toyota Land Cruiser V8 GXR LC 300",
+            "short": "LC 300 GXR",
+            "desc": "Le SUV premium ultime. Moteur V8 diesel 3,3 L biturbo, capacités tout-terrain exceptionnelles, idéal pour les terrains les plus exigeants du Cameroun.",
+            "specs": ["V8 Biturbo 3.3L", "7 places", "4x4 permanent", "Auto 10 rapports"],
+            "badge": "Premium",
+            "badgeColor": "#FFA500",
+            "image": "/Assets/cruiser1-no-bg.png"
+          },
+          {
+            "id": 2,
+            "category": "Véhicules Légers",
+            "categoryKey": "light",
+            "name": "Toyota Hilux",
+            "short": "Hilux",
+            "desc": "Le pick-up le plus robuste au monde. Indispensable pour les chantiers, les missions humanitaires et les déplacements professionnels en terrain difficile.",
+            "specs": ["2.4L Diesel – 4 cyl.", "Double cabine", "4x4 enclenchable", "Charge utile 1T"],
+            "badge": "Best-seller",
+            "badgeColor": "#00FF00",
+            "image": "/Assets/hillux3-no-bg.png"
+          },
+          {
+            "id": 3,
+            "category": "Véhicules Légers",
+            "categoryKey": "light",
+            "name": "Toyota Land Cruiser Prado",
+            "short": "Prado",
+            "desc": "L'équilibre parfait entre confort urbain et robustesse tout-terrain. Idéal pour les cadres voyageant entre les villes camerounaises et les zones reculées.",
+            "specs": ["2.8L Diesel 204ch", "5 ou 7 places", "4x4 Multi-terrain", "Suspension haute"],
+            "badge": "Confort",
+            "badgeColor": "#0000FF",
+            "image": "/Assets/prado2-no-bg.png"
+          },
+          {
+            "id": 4,
+            "category": "Engins Lourds",
+            "categoryKey": "heavy",
+            "name": "Pelle Hydraulique",
+            "short": "Pelleteuse",
+            "desc": "Pelle hydraulique haute performance pour le terrassement, les fondations, l'exploitation minière et les grands projets d'infrastructure.",
+            "specs": ["6 à 45 tonnes", "Bras hydraulique renforcé", "Godets multi-tailles", "Cabine climatisée"],
+            "badge": "Excavation",
+            "badgeColor": "#FF4500",
+            "image": "/Assets/pelleteuse_pneus_01-no-bg.png"
+          },
+          {
+            "id": 5,
+            "category": "Engins Lourds",
+            "categoryKey": "heavy",
+            "name": "Niveleuse",
+            "short": "Niveleuse",
+            "desc": "Niveleuse pour la construction et l'entretien des routes, pistes, terrains de sport et surfaces de travaux publics.",
+            "specs": ["Lame 3.6 à 4.8m", "Moteur diesel 6 cyl.", "Articulée ou rigide", "GPS en option"],
+            "badge": "Travaux Routiers",
+            "badgeColor": "#FFFF00",
+            "image": "/Assets/nivelleuse2-no-bg.png"
+          },
+          {
+            "id": 6,
+            "category": "Engins Lourds",
+            "categoryKey": "heavy",
+            "name": "Bulldozer",
+            "short": "Bulldozer",
+            "desc": "Bulldozer sur chenilles pour le défrichage, le décapage, le remblayage et la poussée de matériaux sur les grands sites miniers et de génie civil.",
+            "specs": ["Lame en U ou S", "Ripper arrière", "Moteur diesel service lourd", "Transmission HST"],
+            "badge": "Terrassement",
+            "badgeColor": "#FF8C00",
+            "image": "/Assets/bulldozer1-no-bg.png"
+          },
+          {
+            "id": 7,
+            "category": "Engins Lourds",
+            "categoryKey": "heavy",
+            "name": "Chargeuse sur pneus",
+            "short": "Chargeuse",
+            "desc": "Chargeuse sur pneus pour le chargement de matériaux en vrac, le déblayage et la manutention lourde sur chantiers et carrières.",
+            "specs": ["Godet 1.8 à 5m³", "Bras articulé", "4 roues motrices", "Transmission automatique"],
+            "badge": "Manutention",
+            "badgeColor": "#808000",
+            "image": "/Assets/chargeuse-no-bg.png"
+          },
+          {
+            "id": 8,
+            "category": "Engins Lourds",
+            "categoryKey": "heavy",
+            "name": "Camion Benne",
+            "short": "Camion Benne",
+            "desc": "Camion benne de chantier pour le transport de matériaux, de remblais et de déchets de construction. Conçu pour les conditions les plus difficiles.",
+            "specs": ["10 à 50 tonnes", "Benne basculante", "Moteur Euro III/V", "Essieu renforcé"],
+            "badge": "Transport",
+            "badgeColor": "#FF0000",
+            "image": "/Assets/camion3-no-bg.png"
+          }
+        ]
+      },
+      "activitiesHero": {
+        "breadcrumb": ["Accueil", "Activités"],
+        "label": "Nos Activités",
+        "title": "Découvrez nos",
+        "titleHighlight": "Véhicules",
+        "description": "Nous proposons une large gamme de véhicules pour tous vos besoins professionnels.\nVous avez la possibilité de louer et d'acheter nos véhicules disponibles ainsi que d'importer des voitures dans le pays.",
+        "backgroundText": "AUTOMOBILE",
+        "stats": [
+          { "value": "40+", "label": "Projets" },
+          { "value": "3+", "label": "Ans d'Expérience" },
+          { "value": "1", "label": "Pays Desservi" }
+        ]
+      },
+      "categoryIntro": {
+        "categories": [
+          {
+            "key": "light",
+            "icon": "🚗",
+            "title": "Véhicules Légers",
+            "desc": "Toyota Land Cruiser, Hilux et Prado pour tous les terrains.",
+            "count": "3 modèles"
+          },
+          {
+            "key": "heavy",
+            "icon": "🚧",
+            "title": "Engins Lourds",
+            "desc": "Excavatrices, niveleuses, bulldozers et camions bennes.",
+            "count": "5 machines"
+          }
+        ]
+      },
+      "commercialOps": {
+        "label": "Opérations Commerciales",
+        "title": "FAMATESS COMPANY vous accompagne",
+        "desc": "De l'importation à la livraison, nous gérons l'ensemble de votre chaîne logistique.",
+        "highlight": "dans toutes vos opérations.",
+        "stats": [
+          { "val": "1", "label": "Pays Desservi", "icon": "🌍" },
+          { "val": "24h", "label": "Réactivité", "icon": "⚡" },
+          { "val": "100%", "label": "Traçabilité", "icon": "📍" },
+          { "val": "0", "label": "Frais Cachés", "icon": "✅" }
+        ],
+        "operations": [
+          { "num": "01", "title": "Importation de Véhicules", "icon": "🚢" },
+          { "num": "02", "title": "Exportation de Marchandises", "icon": "📦" },
+          { "num": "03", "title": "Dédouanement", "icon": "📋" },
+          { "num": "04", "title": "Transport & Livraison", "icon": "🚚" },
+          { "num": "05", "title": "Suivi", "icon": "📍" }
+        ]
+      },
+      "fleetShowcase": {
+        "label": "Notre Flotte",
+        "titleLine1": "Équipements haute performance",
+        "titleHighlight": "pour vos grands projets.",
+        "desc": "Une flotte complète de véhicules neufs et d'engins lourds, livrés dans tout le Cameroun avec un service après-vente intégré.",
+        "items": [
+          {
+            "label": "Transport Lourd",
+            "desc": "Camions de transport pour vos engins de chantier",
+            "image": "/Assets/bulldozer1-no-bg.png"
+          },
+          {
+            "label": "Camion Benne",
+            "desc": "Camions bennes pour les chantiers et l'exploitation minière",
+            "image": "/Assets/camion3-no-bg.png"
+          },
+          {
+            "label": "Véhicules Légers",
+            "desc": "SUVs et pick-ups pour vos missions professionnelles",
+            "image": "/Assets/hillux6-no-bg.png"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "title": "Prêt à démarrer\nvotre projet ?",
+        "desc": "Obtenez un devis personnalisé en moins de 24h.",
+        "call": "Appeler",
+        "whatsapp": "WhatsApp",
+        "formTitle": "Demande de Devis Rapide",
+        "name": "Nom Complet",
+        "phone": "Numéro de Téléphone",
+        "message": "Décrivez votre besoin",
+        "submit": "Envoyer la Demande",
+        "success": "Message envoyé !"
+      },
+      "ourBusinesses": {
+        "eyebrow": "Nos Métiers",
+        "heading": "Secteurs d'Activité de\nFAMATESS COMPANY",
+        "sectors": [
+          {
+            "name": "Vente de Véhicules",
+            "desc": "Nous vendons une large gamme de véhicules incluant Toyota, Mitsubishi, et plus.",
+            "icon": "🚗",
+            "color": "#FF6600"
+          },
+          {
+            "name": "Engins Lourds",
+            "desc": "Excavatrices, bulldozers et autres machines pour la construction.",
+            "icon": "🚧",
+            "color": "#00AAFF"
+          },
+          {
+            "name": "Exportations",
+            "desc": "Services de commerce international et logistique.",
+            "icon": "📦",
+            "color": "#00CC66"
+          },
+          {
+            "name": "BTP",
+            "desc": "Exécution de projets d'infrastructure et de construction à grande échelle.",
+            "icon": "🏗️",
+            "color": "#FF8C1E"
+          },
+          {
+            "name": "Terrassement",
+            "desc": "Préparation de terrain, excavation et services de façonnage de terrain.",
+            "icon": "⛏️",
+            "color": "#A0522D"
+          },
+          {
+            "name": "Construction",
+            "desc": "Conception et construction de bâtiments résidentiels, commerciaux et industriels.",
+            "icon": "🏢",
+            "color": "#6A5ACD"
+          },
+          {
+            "name": "Transport Maritime",
+            "desc": "Fret maritime et solutions logistiques à travers les régions.",
+            "icon": "🚢",
+            "color": "#008080"
+          }
+        ]
+      },
+      "navbar": {
+        "company": "FAMATESS COMPANY",
+        "home": "Accueil",
+        "aboutUs": "À Propos",
+        "activities": "Automobile",
+        "chooseUs": "Pourquoi nous choisir",
+        "contact": "Contact",
+        "btp": "BTP",
+        "logistics": "Logistique & Transports",
+        "menu": "Menu",
+        "menuItems": [
+          { "hash": "#/home", "label": "Accueil" },
+          { "hash": "#/about-us", "label": "À Propos" },
+          { "hash": "#/choose-us", "label": "Pourquoi nous choisir" },
+          { "hash": "#/automobile", "label": "Famatess Automobile" },
+          { "hash": "#/btp", "label": "Famatess BTP" },
+          { "hash": "#/logistics", "label": "Famatess Logistique & Transport" }
+        ]
+      },
+      "aboutHero": {
+        "watermark": "FAMATESS",
+        "breadcrumb": ["Accueil", "À Propos"],
+        "label": "À Propos de FAMATESS COMPANY",
+        "titleLine1": "Bâtie au Cameroun,",
+        "titleHighlight": "au service du Cameroun.",
+        "description": "Fondée en 2023, FAMATESS COMPANY est une entreprise camerounaise multisectorielle fournissant des services de véhicules, construction, logistique et terrassement à travers le pays — avec l'ambition de se développer dans toute l'Afrique Centrale.",
+        "stats": [
+          { "value": "2023", "label": "Année de fondation" },
+          { "value": "4", "label": "Divisions clés" },
+          { "value": "100%", "label": "Camerounais" }
+        ]
+      },
+      "aboutStory": {
+        "label": "Notre Histoire",
+        "titleLine1": "Une jeune entreprise avec",
+        "titleHighlight": "une ambition audacieuse.",
+        "paragraphs": [
+          "FAMATESS COMPANY a été créée en <strong>2023</strong> à Yaoundé, au Cameroun, avec une mission claire : offrir des services fiables, professionnels et accessibles dans les secteurs essentiels à la croissance du Cameroun — la construction, le transport et la fourniture de véhicules.",
+          "En peu de temps, nous avons bâti une solide réputation d'honnêteté, de qualité d'exécution et de rapidité de livraison — en partenariat avec des particuliers, des entreprises, des institutions publiques et des organisations internationales à travers le pays.",
+          "Aujourd'hui, nous opérons depuis <strong>Yaoundé, Douala et Kribi</strong>, avec une flotte croissante, une équipe expérimentée et l'ambition d'étendre notre empreinte dans toute la sous-région d'Afrique Centrale."
+        ],
+        "milestones": [
+          { "year": "2023", "icon": "🚀", "title": "Fondation", "desc": "FAMATESS COMPANY est officiellement enregistrée et débute ses opérations à Yaoundé." },
+          { "year": "2023", "icon": "🚗", "title": "Vente de Véhicules", "desc": "Lancement de la division de vente de véhicules neufs et d'occasion — Toyota, Mitsubishi, Isuzu, Suzuki, Yamaha." },
+          { "year": "2023", "icon": "🏗️", "title": "Division BTP", "desc": "Ouverture de la division Bâtiment & Travaux Publics, réalisant ses premiers contrats résidentiels et routiers." },
+          { "year": "2024", "icon": "🚛", "title": "Expansion Logistique", "desc": "Lancement de la division Logistique & Transport avec des opérations dédiées au transport lourd et portuaire." },
+          { "year": "2024", "icon": "🌍", "title": "Douala & Kribi", "desc": "Extension des opérations au hub portuaire de Douala et à Kribi pour la manutention de cargaisons en eau profonde." }
+        ]
+      },
+      "aboutValues": {
+        "label": "Nos Valeurs",
+        "titleLine1": "Les principes qui nous",
+        "titleHighlight": "définissent au quotidien.",
+        "description": "Ces six valeurs ne sont pas des slogans — ce sont les normes que nous nous imposons dans chaque projet, chaque livraison et chaque conversation. C'est pour elles que nos clients reviennent.",
+        "items": [
+          { "icon": "⚖️", "title": "Intégrité", "desc": "Nous agissons avec honnêteté et transparence dans chaque relation — clients, partenaires, fournisseurs et équipe. Aucun frais caché, aucune fausse promesse." },
+          { "icon": "⏱️", "title": "Ponctualité", "desc": "Nous nous engageons sur des délais et nous les respectons. Le respect de votre temps et de votre calendrier est au cœur de notre exécution." },
+          { "icon": "🏆", "title": "Excellence", "desc": "Nous fixons des standards élevés de qualité pour tout ce que nous livrons — de l'état des véhicules aux finitions de construction." },
+          { "icon": "🤝", "title": "Partenariat", "desc": "Nous voyons chaque client comme un partenaire à long terme. Leur succès est le nôtre — nous investissons dans des relations durables." },
+          { "icon": "🌍", "title": "Fierté Locale", "desc": "Nous sommes fiers d'être Camerounais. Nous recrutons localement et contribuons au développement de nos communautés." },
+          { "icon": "💡", "title": "Adaptabilité", "desc": "Les marchés africains évoluent vite. Nous restons agiles et améliorons continuellement nos services pour répondre aux nouveaux besoins." }
+        ]
+      },
+      "aboutActivities": {
+        "label": "Ce Que Nous Faisons",
+        "titleLine1": "Nos activités",
+        "titleHighlight": "cœur de métier.",
+        "learnMore": "En savoir plus →",
+        "items": [
+          { "icon": "🚗", "title": "Vente de Véhicules", "badge": "Activité Principale", "desc": "Vente de véhicules neufs et d'occasion pour particuliers et entreprises. Nous fournissons pick-ups, SUVs et motos de marques reconnues.", "brands": ["Toyota", "Mitsubishi", "Isuzu", "Suzuki", "Yamaha"], "link": "/activities" },
+          { "icon": "🏗️", "title": "Bâtiment & Travaux Publics", "badge": "Activité Principale", "desc": "Solutions de construction complètes — logements, bâtiments commerciaux, routes et génie civil à travers le Cameroun.", "brands": ["Construction de maisons", "Travaux routiers", "Génie Civil"], "link": "/btp" },
+          { "icon": "🚛", "title": "Logistique & Transport", "badge": "Activité Principale", "desc": "Logistique de bout en bout : fret import/export, transport lourd, entreposage et livraison du dernier kilomètre dans la zone CEMAC.", "brands": ["Import/Export", "Transport Lourd", "Entreposage", "Distribution"], "link": "/logistics" },
+          { "icon": "⛏️", "title": "Terrassement", "badge": "Activité Principale", "desc": "Opérations professionnelles de terrassement — défrichage, excavation, nivellement et stabilisation avec notre propre équipement.", "brands": ["Excavation", "Nivellement", "Préparation de site", "Compactage"], "link": "/btp" }
+        ]
+      },
+      "aboutPresence": {
+        "label": "Où Nous Opérons",
+        "titleLine1": "Trois villes,",
+        "titleHighlight": "une mission.",
+        "summary": [
+          { "label": "Yaoundé", "color": "#FFA500" },
+          { "label": "Douala", "color": "#1E90FF" },
+          { "label": "Kribi", "color": "#32CD32" }
+        ],
+        "cities": [
+          { "name": "Yaoundé", "role": "Siège Social & Centre Opérationnel", "roleColor": "#FFA500", "region": "Région du Centre", "icon": "🏙️", "desc": "Notre bureau principal, showroom et hub opérationnel. La vente de véhicules, la gestion de projets BTP et la coordination logistique y sont basées.", "services": ["Showroom Véhicules", "Gestion de Projets BTP", "QG Logistique", "Administration", "Base Terrassement", "Service Client"], "address": "Yaoundé-Ekoumdoum, à côté de l'Hôtel Iris", "image": "/about/yaounde.jpg", "size": "large" },
+          { "name": "Douala", "role": "Hub Portuaire & Logistique", "roleColor": "#1E90FF", "region": "Région du Littoral", "icon": "⚓", "desc": "Notre bureau de Douala gère toutes les opérations portuaires — dédouanement, gestion de conteneurs et coordination du fret maritime.", "services": ["Opérations Portuaires", "Import / Export", "Dédouanement", "Entreposage", "Transport Lourd", "Distribution"], "address": "Quartier des affaires Akwa, Douala", "image": "/about/douala.jpg", "size": "normal" },
+          { "name": "Kribi", "role": "Accès Port en Eau Profonde", "roleColor": "#32CD32", "region": "Région du Sud", "icon": "🌊", "desc": "Notre présence à Kribi permet un accès direct au port en eau profonde — idéal pour les cargaisons hors gabarit et le matériel minier.", "services": ["Manutention Portuaire", "Cargaison de Projet", "Transport Hors Gabarit", "Logistique Minière", "Secteur Énergie", "Livraison sur Site"], "address": "Zone Industrielle de Kribi, Région du Sud", "image": "/about/kribi.jpg", "size": "normal" }
+        ]
+      },
+      "btpHero": {
+        "breadcrumb": ["Accueil", "Nos Activités", "BTP"],
+        "label": "Bâtiment & Travaux Publics",
+        "headline": "Construisons l'avenir",
+        "headlineEm": "du Cameroun, ensemble.",
+        "description": "La division BTP de FAMATESS COMPANY livre des solutions de construction complètes — du logement résidentiel aux infrastructures civiles — partout au Cameroun.",
+        "stats": [
+          { "num": "50+", "label": "Projets achevés" },
+          { "num": "3", "label": "Divisions clés" },
+          { "num": "100%", "label": "Expertise locale" },
+          { "num": "On-time", "label": "Respect des délais" }
+        ]
+      },
+      "btpServices": {
+        "label": "Nos Services",
+        "headline": "Trois piliers de notre",
+        "headlineEm": "division BTP.",
+        "services": [
+          { "id": "housing", "icon": "🏗️", "color": "#FF8C1E", "title": "Construction de Bâtiments", "subtitle": "Construction Résidentielle & Commerciale", "desc": "Des villas individuelles aux complexes résidentiels et bâtiments commerciaux, nos équipes livrent une construction de qualité adaptée au climat local.", "points": ["Conception architecturale & planification", "Fondations et gros œuvre", "Maçonnerie & finitions", "Toiture et étanchéité", "Électricité & plomberie", "Finitions intérieures et extérieures"], "images": [{ "src": "/Assets/house2.jpg", "caption": "Construction de maison — Yaoundé" }, { "src": "/Assets/comm.webp", "caption": "Bâtiment commercial — Douala" }] },
+          { "id": "roads", "icon": "🛣️", "color": "#0080FF", "title": "Travaux Routiers", "subtitle": "Routes, Autoroutes & Infrastructures Urbaines", "desc": "Nous concevons et construisons des routes durables en utilisant des machines modernes adaptées aux conditions tropicales.", "points": ["Levés topographiques & études", "Préparation du sol & compactage", "Revêtement bitumineux & béton", "Canaux de drainage & ponceaux", "Signalisation & sécurité routière", "Construction de ponts & autoponts"], "images": [{ "src": "/Assets/urban2.webp", "caption": "Construction de route urbaine" }, { "src": "/Assets/urban1.webp", "caption": "Réhabilitation de route rurale" }] },
+          { "id": "earthworks", "icon": "⛏️", "color": "#FFD700", "title": "Terrassement", "subtitle": "Excavation, Nivellement & Préparation", "desc": "Notre flotte d'engins lourds gère toutes les opérations de terrassement pour permettre aux projets de démarrer sur des bases solides.", "points": ["Défrichage & enlèvement de végétation", "Excavation de masse & déblais-remblais", "Nivellement de site", "Tranchées pour réseaux", "Remblayage & talutage", "Stabilisation de pentes"], "images": [{ "src": "/Assets/excaRural.jpg", "caption": "Excavation — site industriel" }, { "src": "/Assets/excaResi.avif", "caption": "Nivellement — lot résidentiel" }] }
+        ]
+      },
+      "btpStats": {
+        "figures": [
+          { "target": 50, "suffix": "+", "label": "Projets Réalisés", "icon": "🏗️" },
+          { "target": 100, "suffix": " km", "label": "Routes Construites", "icon": "🛣️" },
+          { "target": 10, "suffix": "+", "label": "Ans d'Expérience", "icon": "📅" },
+          { "valueOverride": "3", "label": "Divisions Cœurs", "icon": "🔑" }
+        ],
+        "whyItems": [
+          { "icon": "🚜", "title": "Flotte d'Équipements Propre", "desc": "Nous possédons nos propres machines — pas de retards de sous-traitance, contrôle total du planning." },
+          { "icon": "👷", "title": "Équipes Certifiées", "desc": "Tous nos superviseurs et ingénieurs possèdent des qualifications nationales reconnues." },
+          { "icon": "📦", "title": "Service Clé en Main", "desc": "De la conception à la livraison, un seul contrat couvre tout — pas de coûts cachés." },
+          { "icon": "🌿", "title": "Éco-Responsable", "desc": "Nous minimisons les déchets de chantier et respectons les écosystèmes locaux." }
+        ],
+        "header": {
+          "label": "Pourquoi FAMATESS BTP",
+          "title": "Le partenaire idéal pour chaque défi de construction."
+        }
+      },
+      "btpProcess": {
+        "header": {
+          "label": "Notre Méthode",
+          "title": "Un processus éprouvé de l'étude à la livraison.",
+          "emphasis": "de l'étude à la livraison.",
+          "desc": "Chaque projet suit une méthodologie structurée pour respecter les délais et le budget. Nous gérons tout en interne."
+        },
+        "steps": [
+          { "num": "01", "icon": "📋", "title": "Consultation Initiale", "desc": "Nous commençons par une visite de site et une consultation client pour comprendre l'étendue et le budget." },
+          { "num": "02", "icon": "📐", "title": "Étude & Conception", "desc": "Notre équipe technique produit les plans détaillés, les études de faisabilité et obtient les permis." },
+          { "num": "03", "icon": "🚧", "title": "Préparation du Site", "desc": "Le terrassement est effectué avec notre propre flotte d'engins — garantissant le contrôle de la qualité." },
+          { "num": "04", "icon": "🏗️", "title": "Construction", "desc": "Le gros œuvre et les finitions sont exécutés par des équipes certifiées avec des contrôles réguliers." },
+          { "num": "05", "icon": "🔍", "title": "Contrôle Qualité", "desc": "Chaque étape du projet subit une inspection technique rigoureuse avant de passer à la phase suivante." },
+          { "num": "06", "icon": "🤝", "title": "Livraison & Suivi", "desc": "Nous remettons le projet avec garanties et une équipe dédiée pour tout besoin post-livraison." }
+        ]
+      },
+      "btpProjects": {
+        "header": { "label": "Projets Récents", "title": "Des réalisations dont nous sommes fiers.", "emphasis": "fiers." },
+        "filters": ["Tous", "Bâtiment", "Routes", "Terrassement"],
+        "projects": [
+          { "id": 1, "category": "Bâtiment", "title": "Maison Résidentielle", "location": "Yaoundé, Région du Centre", "year": "2024", "desc": "Construction d'un complexe de 6 villas sécurisées, incluant fondations, maçonnerie et finitions complètes.", "image": "/Assets/house1.webp", "size": "large" },
+          { "id": 2, "category": "Routes", "title": "Réhabilitation Urbaine", "location": "Douala, Région du Littoral", "year": "2024", "desc": "Réhabilitation de 4,2 km de route urbaine incluant drainage, bitume et signalisation.", "image": "/Assets/UrbanRoad.jpg", "size": "normal" },
+          { "id": 3, "category": "Terrassement", "title": "Nivellement Site Industriel", "location": "Bassa, Douala", "year": "2023", "desc": "Préparation complète de site pour un entrepôt — défrichage, excavation et compactage.", "image": "/Assets/excaResi.avif", "size": "normal" },
+          { "id": 4, "category": "Routes", "title": "Route d'Accès Rurale", "location": "Bafoussam, Région de l'Ouest", "year": "2023", "desc": "12 km de nouvelle route rurale pour un accès toutes saisons.", "image": "/Assets/RuralRoad.avif", "size": "normal" },
+          { "id": 5, "category": "Bâtiment", "title": "Immeuble de Bureaux", "location": "Yaoundé, Région du Centre", "year": "2023", "desc": "Conception et construction d'un immeuble de bureaux commerciaux.", "image": "/Assets/office.jfif", "size": "large" },
+          { "id": 6, "category": "Terrassement", "title": "Travaux de Barrage", "location": "Région de l'Adamaoua", "year": "2022", "desc": "Terrassement et remblayage pour un petit barrage d'irrigation.", "image": "/Assets/excaRural.jpg", "size": "normal" }
+        ]
+      },
+      "logisticsHero": {
+        "breadcrumb": ["Accueil", "Nos Activités", "Logistique & Transport"],
+        "label": "Logistique & Transport",
+        "headlineBefore": "Transporter vos biens à travers le",
+        "headlineEmphasis": "Cameroun, en toute fiabilité.",
+        "description": "La division Logistique de FAMATESS COMPANY fournit des solutions de bout en bout, de l'importation de marchandises au transport lourd et à la livraison sécurisée.",
+        "watermark": "LOGISTIQUE",
+        "stats": [["20+", "Flotte de véhicules"], ["1", "Pays couvert"], ["24/7", "Suivi & support"], ["100%", "Cargaison assurée"]]
+      },
+      "logistics": {
+        "header": { "label": "Nos Services", "title": "Quatre piliers de notre division logistique." },
+        "services": [
+          { "id": "import-export", "icon": "🚢", "color": "#3498db", "title": "Import & Export", "subtitle": "Logistique du Commerce International", "desc": "Nous gérons le cycle complet d'import/export pour véhicules, machines et équipements industriels — gérant l'expédition et le dédouanement pour vous.", "points": ["Réservation de fret maritime & gestion de conteneurs", "Fret aérien pour cargaisons urgentes", "Dédouanement import & export", "Conformité administrative & réglementaire", "Manutention portuaire & enlèvement", "Livraison porte-à-porte"], "images": [{ "src": "/Assets/ContainerHandling.jpg", "caption": "Manutention conteneurs — Port de Douala" }, { "src": "/Assets/AirFreightHandling.jpg", "caption": "Opérations de fret aérien" }] },
+          { "id": "heavy-haulage", "icon": "🚛", "color": "#e67e22", "title": "Transport Lourd", "subtitle": "Transport de Cargaisons Hors Gabarit", "desc": "Notre flotte de porte-engins et remorques plates est conçue pour transporter vos machines de chantier en toute sécurité dans toute la région.", "points": ["Transport porte-engin pour machines lourdes", "Plateaux pour équipements de construction", "Cargaisons volumineuses et hors gabarit", "Étude d'itinéraire et escortes", "Chargement, arrimage et sécurisation", "Permis de transport lourd transfrontalier"], "images": [{ "src": "/Assets/LowLoader.jfif", "caption": "Porte-engin avec excavatrice" }, { "src": "/Assets/oversizedCargo2.webp", "caption": "Escorte de cargaison hors gabarit" }] }
+        ]
+      },
+      "logisticsStats": {
+        "header": { "label": "Pourquoi choisir FAMATESS", "line1": "Votre cargaison est en sécurité", "line2": "entre nos mains." },
+        "figures": [
+          { "target": 20, "suffix": "+", "label": "Véhicules en flotte", "icon": "🚛" },
+          { "target": 1, "suffix": "+", "label": "Pays couvert", "icon": "🌍" },
+          { "target": 500, "suffix": "+", "label": "Livraisons par an", "icon": "📦" },
+          { "valueOverride": "24/7", "label": "Suivi & support", "icon": "📡" }
+        ],
+        "whyItems": [
+          { "icon": "🔒", "title": "Cargaison Entièrement Assurée", "desc": "Tous les biens transportés par FAMATESS sont couverts par une assurance complète pour votre tranquillité." },
+          { "icon": "📡", "title": "Suivi GPS en Temps Réel", "desc": "Chaque véhicule est équipé d'un GPS. Recevez des mises à jour en direct tout au long de l'expédition." },
+          { "icon": "📋", "title": "Documentation Complète", "desc": "Nous gérons tous les documents d'expédition, déclarations de douane et permis de transit pour vous." },
+          { "icon": "🤝", "title": "Point de Contact Unique", "desc": "Un coordinateur dédié gère votre expédition du premier contact à la livraison finale." }
+        ]
+      },
+      "logisticsProcess": {
+        "header": { "label": "Comment ça marche", "line1": "Simple et transparent,", "line2": "de la demande à la livraison.", "desc": "Notre processus en 6 étapes est conçu pour vous donner une visibilité totale à chaque stade de votre transport." },
+        "steps": [
+          { "num": "01", "icon": "📞", "title": "Demande & Devis", "desc": "Contactez notre équipe avec les détails de votre cargaison. Nous fournissons un devis transparent sous 24h." },
+          { "num": "02", "icon": "📋", "title": "Planification & Itinéraire", "desc": "Notre équipe planifie l'itinéraire optimal, choisit le véhicule adapté et gère les permis nécessaires." },
+          { "num": "03", "icon": "📦", "title": "Enlèvement Cargaison", "desc": "Nous récupérons vos marchandises au point d'origine avec un chargement et un inventaire rigoureux." },
+          { "num": "04", "icon": "🛣️", "title": "Transport & Transit", "desc": "Votre cargaison voyage avec notre chauffeur dédié. Le suivi GPS en temps réel vous tient informé." },
+          { "num": "05", "icon": "🔍", "title": "Douane & Conformité", "desc": "Pour l'import/export, nous gérons toutes les formalités douanières, les taxes et les documents de bordure." },
+          { "num": "06", "icon": "✅", "title": "Livraison & Confirmation", "desc": "Les marchandises sont livrées avec preuve de livraison signée. Notre équipe confirme votre satisfaction." }
+        ]
+      },
+      "logisticsNetwork": {
+  "label": "Notre Réseau de Couverture",
+  "title": "Du port au projet,",
+  "titleHighlight": "nous couvrons la distance.",
+  "description": "Opérant à partir de deux hubs à Yaoundé et Douala, notre réseau s'étend sur toutes les régions du Cameroun et dans la sous-région CEMAC — offrant à votre cargaison un itinéraire fiable de l'origine à la destination finale.",
+  "viewHub": "Voir ce hub →",
+  "regions": [
+    {
+      "region": "Hub de Yaoundé",
+      "flag": "🏙️",
+      "role": "Siège des Opérations",
+      "desc": "Base logistique principale, opérations clients, entreposage et gestion de flotte pour les régions du Centre et du Sud.",
+      "services": ["Fret routier", "Entreposage", "Distribution", "Admin & douane"]
+    },
+    {
+      "region": "Hub du Port de Douala",
+      "flag": "⚓",
+      "role": "Porte d'Entrée Import / Export",
+      "desc": "Opérations portuaires, manutention de conteneurs, dédouanement et coordination du fret maritime au Port de Douala.",
+      "services": ["Fret maritime", "Manutention portuaire", "Dédouanement", "Entreposage"]
+    },
+    {
+      "region": "Ouest & Nord-Ouest",
+      "flag": "🌄",
+      "role": "Couverture Régionale",
+      "desc": "Liaisons de fret régulières couvrant Bafoussam, Bamenda et le couloir agricole des hauts plateaux de l'Ouest.",
+      "services": ["Fret routier", "Groupage", "Cargaison agricole", "Livraison express"]
+    },
+    {
+      "region": "Grand Nord Cameroun",
+      "flag": "🏜️",
+      "role": "Couloir du Sahel",
+      "desc": "Services de transport couvrant Ngaoundéré, Garoua et Maroua, incluant les passages frontaliers vers le Tchad et la RCA.",
+      "services": ["Fret longue distance", "Transfrontalier", "Transport lourd", "Transport de carburant"]
+    },
+    {
+      "region": "Sous-région CEMAC",
+      "flag": "🌍",
+      "role": "Opérations Transfrontalières",
+      "desc": "Corridors de fret internationaux à travers le Gabon, le Congo, la RCA et le Tchad — avec tous les permis et documents transfrontaliers.",
+      "services": ["Fret transfrontalier", "Cargaison en transit", "Transit douanier", "Transport lourd"]
+    },
+    {
+      "region": "Sud & Kribi",
+      "flag": "🌊",
+      "role": "Accès Port en Eau Profonde",
+      "desc": "Accès au port en eau profonde de Kribi pour les cargaisons hors normes et industrielles — idéal pour les projets miniers et énergétiques.",
+      "services": ["Transport port-à-site", "Cargaison hors normes", "Logistique minière", "Logistique de projet"]
+    }
+  ]
+},
+      "heroMain": {
+        "watermark": "FAMATESS",
+        "ctaSecondary": "Contactez-nous",
+        "stats": [
+          { "num": "1", "label": "Pays Desservi" },
+          { "num": "8", "label": "Modèles disponibles" },
+          { "num": "Service", "label": "Après-vente" },
+          { "num": "Neuf", "label": "Garanti" }
+        ],
+        "slides": [
+          { "tag": "Automobiles", "headline": "Puissance &\nmobilité", "sub": "Une gamme complète de véhicules adaptés à tous vos besoins professionnels au Cameroun.", "cta": "Voir nos Automobiles", "link": "/automobile" },
+          { "tag": "BTP", "headline": "Force &\nperformance", "sub": "Équipements haute performance pour vos projets de construction et de travaux publics.", "cta": "Voir le BTP", "link": "/btp" },
+          { "tag": "Transport & Logistique", "headline": "Logistique fiable &\nefficace", "sub": "Solutions optimisées de transport et logistique pour vos opérations à travers le Cameroun.", "cta": "Voir la Logistique", "link": "/logistics" }
+        ]
+      },
+      "hero": {
+        "headline": "NE LOUEZ PAS UNE VOITURE.\nLOUEZ LA VOITURE.",
+        "pickupPlaceholder": "Lieu de prise en charge",
+        "cta": "Voir les voitures",
+        "dateFrom": "Du",
+        "dateTo": "Au"
+      },
+      "investorsStrip": {
+        "eyebrow": "Relations Investisseurs",
+        "heading": "Un groupe coté sur Euronext Paris.",
+        "body": "FAMATESS COMPANY est cotée sur Euronext.",
+        "buttons": ["Rapports Financiers", "Infos Actionnaires"],
+        "stats": [
+          { "label": "Prix Action", "val": "32,40 €", "sub": "Paris" },
+          { "label": "Capitalisation", "val": "1,8 Md€", "sub": "2025" },
+          { "label": "Dividende", "val": "1,20 €", "sub": "Par action" },
+          { "label": "Note", "val": "BB+", "sub": "S&P" }
+        ]
+      },
+      "notFound": {
+        "label": "404 — Page Non Trouvée",
+        "titleLine1": "Cette page",
+        "titleHighlight": "n'existe pas.",
+        "description": "Le lien que vous avez suivi est peut-être rompu ou n'est plus disponible. Revenez à l'accueil pour trouver ce que vous cherchez.",
+        "ctaHome": "Retour à l'Accueil",
+        "ctaContact": "Nous Contacter",
+        "watermark": "404",
+        "quickNavLabel": "Ou allez à :",
+        "links": [
+          { "label": "Famatess Automobile", "href": "#/automobile" },
+          { "label": "BTP", "href": "#/btp" },
+          { "label": "Logistique", "href": "#/logistics" },
+          { "label": "À Propos", "href": "#/about-us" },
+          { "label": "Contact", "href": "#/localisation" }
+        ]
+      },
+      "sustainability": {
+        "title": "Piliers du Développement Durable",
+        "pillars": [
+          { "icon": "🌱", "title": "Flotte Éco-responsable", "desc": "Nos voitures sont économes en énergie et à faibles émissions." },
+          { "icon": "⚡", "title": "Énergie Propre", "desc": "Nous promouvons les énergies renouvelables dans nos installations." },
+          { "icon": "🤝", "title": "Engagement Communautaire", "desc": "Soutien aux communautés locales et initiatives sociales." }
+        ]
+      },
+      "sidebar": {
+        "home": "Accueil",
+        "users": "Utilisateurs",
+        "calendar": "Calendrier",
+        "settings": "Paramètres",
+        "logout": "Déconnexion"
+      },
+      "whyFamatess": {
+        "label": "FAMATESS COMPANY",
+        "header": { "line1": "Le bon service", "line2": "au meilleur prix." },
+        "points": [
+          { "icon": "🚢", "title": "Importation Véhicules Neufs", "desc": "Véhicules neufs importés directement des constructeurs avec garantie d'origine." },
+          { "icon": "🔧", "title": "Service Après-Vente", "desc": "Réseau de techniciens certifiés et pièces d'origine disponibles au Cameroun." },
+          { "icon": "📄", "title": "Dédouanement Inclus", "desc": "Gestion complète des procédures douanières et des documents d'importation." },
+          { "icon": "💼", "title": "Solutions de Financement", "desc": "Leasing, crédit et options de financement adaptés à vos projets." }
+        ]
+      },
+      "heroChooseUs": {
+        "breadcrumb": ["Accueil", "Pourquoi nous choisir"],
+        "label": "Pourquoi nous choisir",
+        "titleLine1": "Pourquoi choisir",
+        "titleHighlight": "FAMATESS COMPANY ?",
+        "description": "FAMATESS COMPANY accompagne ses clients dans toutes leurs opérations au Cameroun. Fiabilité, expertise et transparence sont nos engagements.",
+        "stats": [
+          { "value": "1", "label": "Pays Desservi" },
+          { "value": "24h", "label": "Réactivité" },
+          { "value": "100%", "label": "Traçabilité" },
+          { "value": "0", "label": "Frais Cachés" }
+        ]
+      },
+      "whyChooseUs": {
+        "header": { "label": "Nos Engagements", "line1": "Quatre raisons de", "line2": "nous faire confiance.", "desc": "Chaque engagement reflète nos valeurs : excellence opérationnelle, intégrité et satisfaction client." },
+        "reasons": [
+          { "num": "01", "title": "Équipe Expérimentée et Réactive", "desc": "Des professionnels qualifiés prêts à répondre à vos besoins avec expertise.", "icon": "👥" },
+          { "num": "02", "title": "Respect Strict des Délais", "desc": "Nous nous engageons sur des délais précis et honorons tous nos accords contractuels.", "icon": "⏱️" },
+          { "num": "03", "title": "Prix Compétitifs et Transparents", "desc": "Des prix justes sans surprise — devis détaillés, facturation claire, pas de frais cachés.", "icon": "💰" },
+          { "num": "04", "title": "Satisfaction Client au Cœur", "desc": "Votre succès est notre mission. Nous assurons un suivi personnalisé à chaque étape.", "icon": "⭐" }
+        ]
+      },
+      "footer": {
+        "brand": "FAMATESS COMPANY",
+        "tagline": "Le bon service au meilleur prix",
+        "description": "Rapidité, Sécurité, Fiabilité",
+        "cols": [
+          { "title": "Entreprise", "links": [{ "label": "À Propos", "hash": "#/about-us" }, { "label": "Carrières", "hash": "#/about-us" }, { "label": "Actualités", "hash": "#/about-us" }, { "label": "Contact", "hash": "#/choose-us#contact" }] },
+          { "title": "Activités", "links": [{ "label": "Automobile", "hash": "#/activities" }, { "label": "Santé", "hash": "#/activities" }, { "label": "Mobilité", "hash": "#/activities" }, { "label": "Logistique", "hash": "#/activities" }, { "label": "BTP", "hash": "#/btp" }] },
+          { "title": "Localisation", "links": [{ "label": "Yaoundé - Ekoumdoum", "hash": "#/choose-us#contact" }, { "label": "Lundi–Samedi 8:00–18:00", "hash": "#/choose-us#contact" }, { "label": "Tél: +237 691 455 677", "hash": "tel:+237691455677" }, { "label": "WhatsApp: +237 671 893 467", "hash": "https://wa.me/237671893467" }, { "label": "Email: famatesscompanysa@gmail.com", "hash": "mailto:famatesscompanysa@gmail.com" }] }
+        ],
+        "bottomLinks": ["Mentions Légales", "Politique de Confidentialité", "Paramètres des Cookies", "Plan du Site"],
+        "copyright": "© 2026 FAMATESS COMPANY. Tous droits réservés."
+      },
+      "legal": {
+        "introBand": { "text": "Bienvenue sur les informations légales de Famatess Company." },
+        "tocSidebar": { "contents": "Sommaire", "related": "Relatif" },
+        "hostingProvider": { "text1": "Les sites Famatess sont hébergés par :", "text2": "La diffusion de contenu et la gestion DNS sont gérées via Cloudflare, Inc. (101 Townsend St, San Francisco, CA 94107, USA).", "infoBox": "Toutes les données utilisateur sont stockées sur des serveurs situés dans l'Espace Économique Européen (EEE) conformément aux exigences du RGPD." },
+        "intellectualProperty": { "text1": "Tout le contenu des sites Famatess Company — incluant les textes, articles, photos, logos, vidéos, animations et logiciels — est la propriété exclusive de Famatess Company ou fait l'objet d'une licence d'utilisation.", "text2": "Ce contenu est protégé par les lois françaises et internationales sur la propriété intellectuelle, notamment :", "protectedItems": ["Code de la Propriété Intellectuelle (France)", "Directive 2001/29/CE du Parlement Européen", "Convention de Berne", "Accords ADPIC (Aspects des droits de propriété intellectuelle qui touchent au commerce)"], "strictlyProhibited": "Strictement Interdit Sans Autorisation Écrite Préalable", "trademarkText": "Le nom et le logo FAMATESS COMPANY® sont des marques déposées. Toute utilisation non autorisée constitue une contrefaçon.", "contact": "Pour toute demande d'autorisation, contactez : legal@famatesscompanysa@gmail.com" },
+        "limitationOfLiability": { "text1": "Famatess met tout en œuvre pour assurer l'exactitude des informations. Toutefois, elles sont fournies à titre informatif et ne constituent pas un conseil juridique ou financier.", "warning": "Famatess ne peut être tenue responsable des dommages directs ou indirects résultant de l'utilisation du site.", "text2": "En particulier, Famatess Company décline toute responsabilité pour :", "text3": "Les informations sur les performances financières et les projections de marché sont soumises à des risques et incertitudes." },
+        "hyperlinksExternal": { "text1": "Ce site peut contenir des liens vers des sites tiers. Ces liens sont fournis uniquement pour votre commodité.", "text2": "La création de liens vers ce site nécessite une autorisation écrite préalable. Le deep-linking et le framing sont strictement interdits.", "text3": "Demande de lien : webmaster@famatesscompanysa@gmail.com" },
+        "personalDataProtection": { "text1": "Famatess Company traite les données personnelles conformément au RGPD (Règlement 2016/679) et aux lois nationales applicables.", "text2": "Vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données. Consultez notre Politique de Données Personnelles.", "text3": "Contact DPO : dpo@famatesscompanysa@gmail.com", "text4": "En cas d'insatisfaction, vous pouvez introduire une réclamation auprès de la CNIL (www.cnil.fr)." },
+        "cookiesSection": { "text1": "Ce site utilise des cookies pour assurer son bon fonctionnement et analyser le trafic.", "text2": "Pour gérer vos préférences, consultez notre Politique de Cookies." },
+        "applicableLaw": { "text1": "Ces mentions légales sont régies par le droit français.", "text2": "En cas de litige non résolu à l'amiable, compétence exclusive est attribuée aux tribunaux de Paris, France.", "text3": "Pour les utilisateurs camerounais, Famatess respecte également les lois sur l'économie numérique et la protection des données de la CEDEAO/CEMAC.", "text4": "Les utilisateurs de l'UE bénéficient de la plateforme de Règlement en Ligne des Litiges : ec.europa.eu/consumers/odr" },
+        "contactSection": { "text1": "Pour toute question sur ces mentions légales ou pour toute demande générale, utilisez les coordonnées suivantes :", "hqSubtitle": "le bon service au meilleur prix" }
+      }
+    }
+  }
+}
