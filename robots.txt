@@ -4,4 +4,4 @@ Allow: /
 Disallow: /static/
 Disallow: /node_modules/
 
-Sitemap: https://famatess.gt.tc/sitemap.xml
+Sitemap: https://famatesscompany.com/sitemap.xml
