@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { C, FD, FB } from '../theme';
 import { useLanguage } from '../i18n';
 
@@ -120,7 +121,7 @@ export default function NotFound() {
           gap: 14,
           animation: 'nfFadeUp 0.6s ease 0.15s both',
         }}>
-          <a href="#/home"
+          <Link to="/home"
             style={{
               fontFamily: FB,
               fontSize: 'clamp(13px, 1.8vw, 14px)',
@@ -134,9 +135,9 @@ export default function NotFound() {
             }}
           >
             ← {ctaHome}
-          </a>
+          </Link>
 
-          <a href="#/localisation"
+          <Link to="/localisation"
             style={{
               fontFamily: FB,
               fontSize: 'clamp(13px, 1.8vw, 14px)',
@@ -150,7 +151,7 @@ export default function NotFound() {
             }}
           >
             {ctaContact}
-          </a>
+          </Link>
         </div>
 
         {/* Quick nav */}
@@ -169,7 +170,7 @@ export default function NotFound() {
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
             {quickLinks.map((link, idx) => (
-              <a key={idx} href={link.href}
+              <Link key={idx} to={link.href.replace(/^#/, '')}
                 style={{
                   fontFamily: FB,
                   fontSize: 'clamp(12px, 1.6vw, 13px)',
@@ -183,7 +184,7 @@ export default function NotFound() {
                 }}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { C, FD, FB } from '../theme';
 import { useLanguage } from '../i18n';
 
@@ -75,9 +76,9 @@ export default function Footer() {
               </div>
 
               {(Array.isArray(col.links) ? col.links : []).map((l, i) => (
-                <a
+                <Link
                   key={i}
-                  href={l.hash || '#/home'}
+                  to={(l.hash || '#/home').replace(/^#/, '')}
                   style={{
                     display: 'block',
                     fontFamily: FB,
@@ -88,7 +89,7 @@ export default function Footer() {
                   }}
                 >
                   {l.label}
-                </a>
+                </Link>
               ))}
             </div>
           ))}

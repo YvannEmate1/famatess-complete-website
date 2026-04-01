@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { C, FD, FB } from '../theme';
 import { useLanguage } from '../i18n';
 import SLabel from './SLabel';
 
 export default function HeroMain() {
   const { t } = useLanguage();
+  const navigate = useNavigate();
 
   /* ── Slide backgrounds ── */
   const slideBgs = [
@@ -136,7 +138,7 @@ export default function HeroMain() {
             alignItems: 'center', animation: 'auFadeUp 0.6s ease 0.15s both',
           }}>
             <button
-              onClick={() => { if (s.link) window.location.hash = s.link; }}
+              onClick={() => { if (s.link) navigate(s.link.replace(/^#/, '')); }}
               style={{
                 fontFamily: FB, fontSize: 14, fontWeight: 700, background: C.orange,
                 color: C.black, border: 'none', padding: '14px 32px', borderRadius: 2,
@@ -149,7 +151,7 @@ export default function HeroMain() {
             </button>
 
             <button
-              onClick={() => window.location.hash = '#/localisation'}
+              onClick={() => navigate('/localisation')}
               style={{
                 fontFamily: FB, fontSize: 14, fontWeight: 500, background: 'transparent',
                 color: C.white, border: '1.5px solid rgba(220,220,224,0.4)',

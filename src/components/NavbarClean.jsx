@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { C, FD, FB } from '../theme';
 import { useLanguage } from '../i18n';
 
@@ -33,11 +34,13 @@ function NavButton({ label, onClick, hovered, onHover, mobile }) {
 }
 
 function MenuItem({ hash, label, onClose, mobile }) {
+  const navigate = useNavigate();
   return (
     <button
       role="menuitem"
       onClick={() => {
-        window.location.hash = hash;
+        const path = hash.replace(/^#/, '');
+        navigate(path);
         onClose();
       }}
       style={{
@@ -100,9 +103,11 @@ export default function NavbarClean() {
   }, []);
 
   const menuItems = Array.isArray(navbar.menuItems) ? navbar.menuItems : [];
+  const navigate = useNavigate();
 
   const handleNav = (hash) => {
-    window.location.hash = hash;
+    const path = hash.replace(/^#/, '');
+    navigate(path);
     setMobileMenuOpen(false);
   };
 
@@ -158,7 +163,7 @@ export default function NavbarClean() {
           {/* LOGO */}
           <div
             style={{ display: 'flex', alignItems: 'center', gap: 10, cursor: 'pointer' }}
-            onClick={() => { window.location.hash = '#/home'; }}
+            onClick={() => { navigate('/home'); }}
           >
             <img src="/Assets/logo-no-bg.png" alt="Logo" style={{ height: 45, width: 'auto' }} />
             <h2 style={{

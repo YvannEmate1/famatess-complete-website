@@ -1,5 +1,6 @@
 import './App.css';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { LanguageProvider } from './i18n';
 
 // Pages
@@ -12,71 +13,36 @@ import Logistics from './pages/Logistics';
 import Localisation from './pages/Localisation';
 import NotFound from './pages/NotFound'; // Import the 404 page
 
-function Router() {
-  const [route, setRoute] = useState(() => {
-    if (typeof window === 'undefined') return '/home';
-    // Remove the leading # and split by anchor if necessary
-    const hashPath = window.location.hash.replace(/^#/, '');
-    const [base] = hashPath.split('#');
-    return base || '/home';
-  });
-
-  const [anchor, setAnchor] = useState(() => {
-    if (typeof window === 'undefined') return '';
-    const hashPath = window.location.hash.replace(/^#/, '');
-    const [, hashAnchor] = hashPath.split('#');
-    return hashAnchor || '';
-  });
+function ScrollToTop() {
+  const { pathname } = useLocation();
 
   useEffect(() => {
-    // If no hash is present, default to home
-    if (!window.location.hash) {
-      window.location.hash = '#/home';
-    }
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
-    const onHash = () => {
-      const hashPath = window.location.hash.replace(/^#/, '');
-      const [base, hashAnchor] = hashPath.split('#');
-      setRoute(base || '/home');
-      setAnchor(hashAnchor || '');
-      
-      // Scroll to top on route change
-      window.scrollTo(0, 0);
-    };
-
-    window.addEventListener('hashchange', onHash);
-    return () => window.removeEventListener('hashchange', onHash);
-  }, []);
-
-  // Routing Logic
-  switch (route) {
-    case '/home':
-      return <Home />;
-    case '/about-us':
-      return <AboutUs />;
-    case '/choose-us':
-      return <ChooseUs anchor={anchor} />;
-    case '/automobile':
-      return <Activities />;
-    case '/btp':
-      return <BTP />;
-    case '/logistics':
-      return <Logistics />;
-    case '/localisation':
-    case '/contact': // Directing contact to localisation for now
-      return <Localisation />;
-    
-    default:
-      return <NotFound />;
-  }
+  return null;
 }
 
 function App() {
   return (
     <LanguageProvider>
       <div className="app-container">
-        {/* Router handles the page rendering based on URL hash */}
-        <Router />
+        <BrowserRouter>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/choose-us" element={<ChooseUs />} />
+            <Route path="/automobile" element={<Activities />} />
+            <Route path="/btp" element={<BTP />} />
+            <Route path="/logistics" element={<Logistics />} />
+            <Route path="/localisation" element={<Localisation />} />
+            <Route path="/contact" element={<Localisation />} />
+            {/* Catch-all for undefined routes */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
       </div>
     </LanguageProvider>
   );
