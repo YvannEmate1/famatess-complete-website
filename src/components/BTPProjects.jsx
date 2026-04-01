@@ -109,7 +109,7 @@ function ProjectCard({ project, index, visible }) {
         }}>
           {project.desc || ''}
         </p>
-        
+
       </div>
       {/* Bottom stripe */}
       <div style={{
@@ -135,23 +135,23 @@ export default function BTPProjects() {
   const projects = Array.isArray(data.projects) ? data.projects : [];
 
   // Safe header splitting
-  const titleParts = header.title && header.emphasis 
-    ? header.title.split(header.emphasis) 
+  const titleParts = header.title && header.emphasis
+    ? header.title.split(header.emphasis)
     : [header.title || ''];
   const titleBeforeEmphasis = titleParts[0] || '';
   const safeEmphasis = header.emphasis || '';
 
   // Filter projects
-  const filteredProjects = activeFilter === 'All' 
-    ? projects 
+  const filteredProjects = activeFilter === 'All'
+    ? projects
     : projects.filter(p => p.category === activeFilter);
 
   return (
     <section style={{ background: C.white, padding: 'clamp(64px, 10vw, 96px) 0', borderTop: `1px solid ${C.borderLight}` }}>
-      <div style={{ 
-        maxWidth: 1280, 
-        margin: '0 auto', 
-        padding: '0 clamp(20px, 5vw, 64px)' 
+      <div style={{
+        maxWidth: 1280,
+        margin: '0 auto',
+        padding: '0 clamp(20px, 5vw, 64px)'
       }}>
 
         {/* Header */}
@@ -162,34 +162,34 @@ export default function BTPProjects() {
         }}>
           <div>
             <SLabel>{header.label || 'Recent Projects'}</SLabel>
-            <h2 style={{ 
-              fontFamily: FD, 
-              fontSize: 'clamp(32px, 6vw, 48px)', 
-              fontWeight: 700, 
-              color: C.textBody, 
-              lineHeight: 1.08 
+            <h2 style={{
+              fontFamily: FD,
+              fontSize: 'clamp(32px, 6vw, 48px)',
+              fontWeight: 700,
+              color: C.textBody,
+              lineHeight: 1.08
             }}>
               {titleBeforeEmphasis}<br />
               <em style={{ color: C.orange, fontStyle: 'italic' }}>{safeEmphasis}</em>
             </h2>
           </div>
           {/* Filter pills */}
-          <div style={{ 
-            display: 'flex', 
-            gap: 8, 
-            flexWrap: 'wrap', 
-            marginTop: 20 
+          <div style={{
+            display: 'flex',
+            gap: 8,
+            flexWrap: 'wrap',
+            marginTop: 20
           }}>
             {filters.map(filter => (
-              <button 
-                key={filter} 
+              <button
+                key={filter}
                 onClick={() => setActiveFilter(filter)}
                 style={{
-                  fontFamily: FB, fontSize: 'clamp(11px, 1.2vw, 12px)', fontWeight: 500,
+                  fontFamily: FB, fontSize: 'clamp(11px, 1.2vw, 12px)',
                   background: activeFilter === filter ? C.orange : C.white,
                   border: `1.5px solid ${activeFilter === filter ? C.orange : C.borderLight}`,
                   color: activeFilter === filter ? C.white : C.graphite,
-                  padding: 'clamp(6px, 1vw, 8px) clamp(14px, 1.5vw, 18px)', 
+                  padding: 'clamp(6px, 1vw, 8px) clamp(14px, 1.5vw, 18px)',
                   borderRadius: 4,
                   cursor: 'pointer', transition: 'all 0.2s', letterSpacing: '0.04em',
                   fontWeight: activeFilter === filter ? 700 : 500,
@@ -202,10 +202,10 @@ export default function BTPProjects() {
         </div>
 
         {/* Grid */}
-        <div style={{ 
-          display: 'grid', 
-          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', 
-          gap: 20 
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+          gap: 20
         }}>
           {filteredProjects.map((project, i) => (
             <ProjectCard key={project.id} project={project} index={i} visible={visible} />
