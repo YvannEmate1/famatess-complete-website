@@ -35,7 +35,7 @@ function AnimNum({ target, suffix = '' }) {
 }
 
 export default function BTPStats() {
-  const { t, lang } = useLanguage();
+  const { t, _lang } = useLanguage();
   const [ref, visible] = useInView(0.1);
 
   const figures = t('parts.components.btpStats.figures') || [];
@@ -48,9 +48,9 @@ export default function BTPStats() {
       {/* ── Key Figures bar ── */}
       <div style={{ borderBottom: '1px solid rgba(255,140,30,0.15)' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
-          <div className="stats-grid" style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))' 
+          <div className="stats-grid" style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))'
           }}>
             {(figures || []).map((fig, i) => (
               <div key={fig.label}
@@ -69,23 +69,23 @@ export default function BTPStats() {
                   onMouseEnter={e => e.currentTarget.style.transform = 'scaleX(1)'}
                   onMouseLeave={e => e.currentTarget.style.transform = 'scaleX(0)'} />
                 <div style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', marginBottom: 10 }}>{fig.icon}</div>
-                <div style={{ 
-                  fontFamily: FD, 
-                  fontSize: 'clamp(32px, 5vw, 44px)', 
-                  fontWeight: 900, 
-                  color: C.orange, 
-                  lineHeight: 1 
+                <div style={{
+                  fontFamily: FD,
+                  fontSize: 'clamp(32px, 5vw, 44px)',
+                  fontWeight: 900,
+                  color: C.orange,
+                  lineHeight: 1
                 }}>
                   {fig.valueOverride ?? <AnimNum target={fig.target} suffix={fig.suffix} />}
                 </div>
-                <div style={{ 
-                  fontFamily: FB, 
-                  fontSize: 'clamp(10px, 1.2vw, 12px)', 
-                  fontWeight: 600, 
-                  color: C.white, 
-                  marginTop: 8, 
-                  textTransform: 'uppercase', 
-                  letterSpacing: '0.06em' 
+                <div style={{
+                  fontFamily: FB,
+                  fontSize: 'clamp(10px, 1.2vw, 12px)',
+                  fontWeight: 600,
+                  color: C.white,
+                  marginTop: 8,
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.06em'
                 }}>
                   {fig.label}
                 </div>
@@ -98,26 +98,26 @@ export default function BTPStats() {
       {/* ── Why choose FAMATESS BTP ── */}
       <div ref={ref} style={{ padding: 'clamp(64px, 10vw, 96px) 0' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 clamp(20px, 5vw, 64px)' }}>
-          <div style={{ 
-            marginBottom: 'clamp(40px, 6vw, 56px)', 
-            animation: visible ? 'btpFadeUp 0.6s ease both' : 'none' 
+          <div style={{
+            marginBottom: 'clamp(40px, 6vw, 56px)',
+            animation: visible ? 'btpFadeUp 0.6s ease both' : 'none'
           }}>
             <SLabel>{header.label}</SLabel>
-            <h2 style={{ 
-              fontFamily: FD, 
-              fontSize: 'clamp(32px, 6vw, 48px)', 
-              fontWeight: 700, 
-              color: C.white, 
-              lineHeight: 1.08 
+            <h2 style={{
+              fontFamily: FD,
+              fontSize: 'clamp(32px, 6vw, 48px)',
+              fontWeight: 700,
+              color: C.white,
+              lineHeight: 1.08
             }}>
               {header.title}
             </h2>
           </div>
 
-          <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', 
-            gap: 16 
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+            gap: 16
           }}>
             {(whyItems || []).map((item, i) => (
               <div key={item.title}
@@ -133,20 +133,20 @@ export default function BTPStats() {
                 onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.borderColor = 'rgba(80,80,88,0.4)'; e.currentTarget.style.boxShadow = 'none'; }}
               >
                 <div style={{ fontSize: 'clamp(28px, 3.5vw, 32px)', marginBottom: 14 }}>{item.icon}</div>
-                <h4 style={{ 
-                  fontFamily: FD, 
-                  fontSize: 'clamp(16px, 2vw, 17px)', 
-                  fontWeight: 700, 
-                  color: C.white, 
-                  marginBottom: 10, 
-                  lineHeight: 1.3 
+                <h4 style={{
+                  fontFamily: FD,
+                  fontSize: 'clamp(16px, 2vw, 17px)',
+                  fontWeight: 700,
+                  color: C.white,
+                  marginBottom: 10,
+                  lineHeight: 1.3
                 }}>{item.title}</h4>
-                <p style={{ 
-                  fontFamily: FB, 
-                  fontSize: 'clamp(12px, 1.5vw, 13px)', 
-                  fontWeight: 300, 
-                  color: C.graphite, 
-                  lineHeight: 1.75 
+                <p style={{
+                  fontFamily: FB,
+                  fontSize: 'clamp(12px, 1.5vw, 13px)',
+                  fontWeight: 300,
+                  color: C.graphite,
+                  lineHeight: 1.75
                 }}>{item.desc}</p>
               </div>
             ))}

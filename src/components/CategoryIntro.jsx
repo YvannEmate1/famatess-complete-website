@@ -3,7 +3,7 @@ import useInView from '../utils/useInView';
 import { useLanguage } from '../i18n';
 
 function CategoryIntro() {
-  const [ref, visible] = useInView(0.15);
+  const [ref, _visible] = useInView(0.15);
   const { t } = useLanguage();
 
   // Safely get categories as an array
@@ -14,7 +14,7 @@ function CategoryIntro() {
     <section ref={ref} style={{ background: C.white }}>
       <div style={{ maxWidth: 1280, margin: "0 auto", padding: "64px 32px" }}>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32 }}>
-          
+
           {categoriesArray.map((cat, i) => (
             <div key={i} style={{ padding: 24, border: `1px solid ${C.silver}`, borderRadius: 4, transition: "all 0.3s", background: C.offwhite }}>
               <div style={{ fontSize: 48, marginBottom: 16 }}>{cat.icon}</div>

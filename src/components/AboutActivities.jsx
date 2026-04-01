@@ -71,7 +71,7 @@ function CoreCard({ item, index, visible, learnMore, isMobile }) {
       <div style={{ height: 4, background: color }} />
 
       <div style={{ padding: isMobile ? '20px' : '24px 26px 26px', flex: 1, display: 'flex', flexDirection: 'column' }}>
-        
+
         {/* Icon + badge */}
         <div style={{
           display: 'flex',
@@ -206,7 +206,6 @@ export default function AboutActivities() {
 
   const data = t('parts.components.aboutActivities') || {};
   const items = Array.isArray(data.items) ? data.items : [];
-  const learnMore = data.learnMore || 'Learn more →';
 
   // Responsive logic
   const isMobile = width <= 900;

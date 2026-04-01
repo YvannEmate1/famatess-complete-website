@@ -22,7 +22,7 @@ const SERVICE_COLORS = {
   'import-export': C.blue,
   'heavy-haulage': C.orange,
   'road-transport': C.green,
-  'warehousing':   C.purple,
+  'warehousing': C.purple,
 };
 
 function ServiceBlock({ service, index, fallbackLabel }) {
@@ -31,7 +31,7 @@ function ServiceBlock({ service, index, fallbackLabel }) {
   const color = SERVICE_COLORS[service.id] || service.color || C.orange;
 
   // We use a CSS class for the grid to handle the breakpoint via the <style> tag below
-  const gridClassName = `service-grid-${service.id}`;
+  const _gridClassName = `service-grid-${service.id}`;
 
   return (
     <div ref={ref} id={service.id} style={{ scrollMarginTop: 80 }}>
@@ -115,15 +115,15 @@ function ServiceBlock({ service, index, fallbackLabel }) {
                 boxShadow: '0 2px 12px rgba(0,0,0,0.06)',
                 transition: 'transform 0.25s, box-shadow 0.25s',
               }}
-              onMouseEnter={e => { 
-                if(window.innerWidth > 1024) {
-                  e.currentTarget.style.transform = 'translateY(-4px)'; 
+              onMouseEnter={e => {
+                if (window.innerWidth > 1024) {
+                  e.currentTarget.style.transform = 'translateY(-4px)';
                   e.currentTarget.style.boxShadow = `0 12px 32px rgba(0,0,0,0.1), 0 0 0 2px ${color}40`;
                 }
               }}
-              onMouseLeave={e => { 
-                e.currentTarget.style.transform = 'translateY(0)'; 
-                e.currentTarget.style.boxShadow = '0 2px 12px rgba(0,0,0,0.06)'; 
+              onMouseLeave={e => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = '0 2px 12px rgba(0,0,0,0.06)';
               }}
             >
               <div className="image-container" style={{ position: 'relative', overflow: 'hidden' }}>
@@ -135,7 +135,7 @@ function ServiceBlock({ service, index, fallbackLabel }) {
                     display: 'block',
                     transition: 'transform 0.4s ease',
                   }}
-                  onMouseEnter={e => { if(window.innerWidth > 1024) e.currentTarget.style.transform = 'scale(1.05)' }}
+                  onMouseEnter={e => { if (window.innerWidth > 1024) e.currentTarget.style.transform = 'scale(1.05)' }}
                   onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
                   onError={e => {
                     e.currentTarget.style.display = 'none';
@@ -182,7 +182,7 @@ export default function LogisticsServices() {
   const { t } = useLanguage();
   const [ref, visible] = useInView(0.1);
 
-  const header   = t('parts.components.logistics.header')   || {};
+  const header = t('parts.components.logistics.header') || {};
   const services = t('parts.components.logistics.services') || [];
   const fallback = t('parts.components.logistics.imageFallback') || 'Image coming soon';
 
