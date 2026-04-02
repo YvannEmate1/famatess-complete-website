@@ -3,10 +3,26 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/Assets/logo.ico" />
+  <link rel="icon" href="%PUBLIC_URL%/Assets/logo-no-bg.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Famatess Company" />
+  <meta name="description" id="meta-description"
+    content="Famatess Company offers a large range of services that goes from car sales and location to Logistics and Transport to Building and Public Works. We also manage your full supply chain from import to delivery, including heavy equipment and earthworks." />
+  <script>
+    (function setDynamicDescription() {
+      try {
+        var lang = navigator.language || navigator.userLanguage;
+        var metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) {
+          if (lang && lang.toLowerCase().startsWith('fr')) {
+            metaDesc.setAttribute('content', "La société Famatess offre une large gamme de services allant de la vente et location de véhicules à la Logistique et au Transport, en passant par le Bâtiment et les Travaux Publics. Nous gérons également l'ensemble de votre chaîne logistique, de l'importation à la livraison, y compris les équipements lourds et les terrassements.");
+          } else {
+            metaDesc.setAttribute('content', "Famatess Company offers a large range of services that goes from car sales and location to Logistics and Transport to Building and Public Works. We also manage your full supply chain from import to delivery, including heavy equipment and earthworks.");
+          }
+        }
+      } catch (e) { }
+    })();
+  </script>
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/Assets/logo-no-bg.png" />
   <!--
       manifest.json provides metadata used when your web app is installed on a
