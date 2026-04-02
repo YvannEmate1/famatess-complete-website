@@ -1,51 +1,151 @@
 {
   "parts": {
     "components": {
+      "famActivities": {
+        "label": "Our Activities",
+        "title": "Everything we",
+        "emphasis": "do for you.",
+        "sub": "FAMATESS COMPANY operates in six complementary business areas — from new vehicles to construction sites, including logistics and earthworks.",
+        "countLabel": "activities",
+        "activities": [
+          {
+            "category": "Vehicle Sales",
+            "title": "New & Used Vehicles",
+            "desc": "Toyota, Mitsubishi, Isuzu, Suzuki and Yamaha — a complete range for individuals, businesses and institutions.",
+            "highlights": [
+              "Toyota Land Cruiser",
+              "Toyota Hilux",
+              "Prado & SUVs",
+              "Yamaha Motorcycles"
+            ]
+          },
+          {
+            "category": "Building & Public Works",
+            "title": "Construction & Civil Engineering",
+            "desc": "From individual villas to roads and public infrastructure — our BTP division covers all your construction projects.",
+            "highlights": [
+              "House Building",
+              "Roads & Highways",
+              "Civil Engineering",
+              "Rehabilitation"
+            ]
+          },
+          {
+            "category": "Logistics & Transport",
+            "title": "Transport & Supply Chain",
+            "desc": "Import/export, heavy transport, national distribution and warehousing — complete logistics across Cameroon and the CEMAC zone.",
+            "highlights": [
+              "Heavy Transport",
+              "Import / Export",
+              "Warehousing",
+              "Distribution"
+            ]
+          },
+          {
+            "category": "Earthworks",
+            "title": "Earthworks Operations",
+            "desc": "Clearing, excavation, grading, and compaction to prepare your sites with our own fleet of heavy equipment.",
+            "highlights": [
+              "Excavation",
+              "Grading",
+              "Compaction",
+              "Site Preparation"
+            ]
+          },
+          {
+            "category": "Customs Clearance",
+            "title": "Customs Formalities",
+            "desc": "Complete support in administrative and customs formalities for importing and exporting all types of goods.",
+            "highlights": [
+              "Import / Export",
+              "Customs Transit",
+              "Documentation",
+              "Compliance"
+            ]
+          }
+        ]
+      },
       "brandsSection": {
         "label": "Brands & Products",
         "title": "Much more than\nvehicles.",
         "desc": "We also market vehicles from Mitsubishi, Isuzu, Suzuki, generators, motorcycles from Yamaha, and much more.",
         "callout": "We also handle exporting local and industrial products and various goods internationally.",
         "brands": [
-          { "name": "Toyota", "icon": "🚗" },
-          { "name": "Mitsubishi", "icon": "🚙" },
-          { "name": "Isuzu", "icon": "🚛" },
-          { "name": "Suzuki", "icon": "🛵" },
-          { "name": "Yamaha", "icon": "🏍️" },
-          { "name": "Generators", "icon": "⚡" }
+          {
+            "name": "Toyota",
+            "icon": "🚗"
+          },
+          {
+            "name": "Mitsubishi",
+            "icon": "🚙"
+          },
+          {
+            "name": "Isuzu",
+            "icon": "🚛"
+          },
+          {
+            "name": "Suzuki",
+            "icon": "🛵"
+          },
+          {
+            "name": "Yamaha",
+            "icon": "🏍️"
+          },
+          {
+            "name": "Generators",
+            "icon": "⚡"
+          }
         ]
       },
       "achievements": {
-  "title": "Our Achievements",
-  "description": "Discover our recent projects and our expertise in action through these significant milestones.",
-  "officialBadge": "Official Delivery",
-  "videoLabel": "Video",
-  "playCta": "Watch Video →",
-  "partnerLabel": "Become a Partner",
-  "trustText": "If a partner trusts us, why shouldn't you?",
-  "companyDesc": "FAMATESS COMPANY supports institutions, businesses, and individuals in the acquisition and delivery of new vehicles throughout Cameroon.",
-  "media": {
-    "mainImage": "/Assets/elecamImage.jpg",
-    "video1": "/Assets/elecam1.mp4", 
-    "video2": "/Assets/elecam2.mp4"
-  },
-  "items": {
-    "partner": {
-      "title": "Partner Installation",
-      "description": "As part of our new vehicle sales and delivery activities, FAMATESS COMPANY ensured the delivery of a vehicle fleet to a partner in Douala — a leading institutional partner."
-    }
-  }
-},
+        "title": "Our Achievements",
+        "description": "Discover our recent projects and our expertise in action through these significant milestones.",
+        "officialBadge": "Official Delivery",
+        "videoLabel": "Video",
+        "playCta": "Watch Video →",
+        "partnerLabel": "Become a Partner",
+        "trustText": "If a partner trusts us, why shouldn't you?",
+        "companyDesc": "FAMATESS COMPANY supports institutions, businesses, and individuals in the acquisition and delivery of new vehicles throughout Cameroon.",
+        "media": {
+          "mainImage": "/Assets/elecamImage.jpg",
+          "video1": "/Assets/elecam1.mp4",
+          "video2": "/Assets/elecam2.mp4"
+        },
+        "items": {
+          "partner": {
+            "title": "Partner Installation",
+            "description": "As part of our new vehicle sales and delivery activities, FAMATESS COMPANY ensured the delivery of a vehicle fleet to a partner in Douala — a leading institutional partner."
+          }
+        }
+      },
       "partners": {
         "eyebrow": "Our Partners",
         "heading": "Trusted by",
         "list": [
-          { "name": "Toyota", "logo": "Assets/toyota-no-bg.png" },
-          { "name": "Mitsubishi", "logo": "Assets/mitsubishi-no-bg.png" },
-          { "name": "Isuzu", "logo": "Assets/isuzu-no-bg.png" },
-          { "name": "Suzuki", "logo": "Assets/suzuki-no-bg.png" },
-          { "name": "Yamaha", "logo": "Assets/yamaha.png" },
-          { "name": "Caterpillar", "logo": "Assets/cat.png" }
+          {
+            "name": "Toyota",
+            "logo": "Assets/toyota-no-bg.png"
+          },
+          {
+            "name": "Mitsubishi",
+            "logo": "Assets/mitsubishi-no-bg.png"
+          },
+          {
+            "name": "Isuzu",
+            "logo": "Assets/isuzu-no-bg.png"
+          },
+          {
+            "name": "Suzuki",
+            "logo": "Assets/suzuki-no-bg.png"
+          },
+          {
+            "name": "Yamaha",
+            "logo": "Assets/yamaha.png"
+          },
+          {
+            "name": "Caterpillar",
+            "logo": "Assets/cat.png"
+          }
         ]
       },
       "logisticsNetwork": {
@@ -60,42 +160,72 @@
             "flag": "🏙️",
             "role": "Operations HQ",
             "desc": "Main logistics base, customer operations, warehousing and fleet management for Centre and South regions.",
-            "services": ["Road freight", "Warehousing", "Distribution", "Admin & customs"]
+            "services": [
+              "Road freight",
+              "Warehousing",
+              "Distribution",
+              "Admin & customs"
+            ]
           },
           {
             "region": "Douala Port Hub",
             "flag": "⚓",
             "role": "Import / Export Gateway",
             "desc": "Port operations, container handling, customs clearance and maritime freight coordination at the Port of Douala.",
-            "services": ["Sea freight", "Port handling", "Customs clearance", "Warehousing"]
+            "services": [
+              "Sea freight",
+              "Port handling",
+              "Customs clearance",
+              "Warehousing"
+            ]
           },
           {
             "region": "West & North-West",
             "flag": "🌄",
             "role": "Regional Coverage",
             "desc": "Regular freight runs covering Bafoussam, Bamenda and the western highlands agricultural corridor.",
-            "services": ["Road freight", "Groupage", "Agricultural cargo", "Express delivery"]
+            "services": [
+              "Road freight",
+              "Groupage",
+              "Agricultural cargo",
+              "Express delivery"
+            ]
           },
           {
             "region": "North Cameroon",
             "flag": "🏜️",
             "role": "Sahel Corridor",
             "desc": "Transport services covering Ngaoundéré, Garoua and Maroua, including Chad and CAR border crossings.",
-            "services": ["Long-haul freight", "Cross-border", "Heavy haulage", "Fuel transport"]
+            "services": [
+              "Long-haul freight",
+              "Cross-border",
+              "Heavy haulage",
+              "Fuel transport"
+            ]
           },
           {
             "region": "CEMAC Sub-region",
             "flag": "🌍",
             "role": "Cross-border Operations",
             "desc": "International freight corridors across Gabon, Congo, CAR and Chad — with full cross-border permits and documentation.",
-            "services": ["Cross-border freight", "Transit cargo", "Customs transit", "Heavy haulage"]
+            "services": [
+              "Cross-border freight",
+              "Transit cargo",
+              "Customs transit",
+              "Heavy haulage"
+            ]
           },
           {
             "region": "South & Kribi",
             "flag": "🌊",
             "role": "Deep-water Port Access",
             "desc": "Access to the Kribi deep-water port for oversized and industrial cargo — ideal for mining and energy projects.",
-            "services": ["Port-to-site haulage", "Oversized cargo", "Mining logistics", "Project cargo"]
+            "services": [
+              "Port-to-site haulage",
+              "Oversized cargo",
+              "Mining logistics",
+              "Project cargo"
+            ]
           }
         ]
       },
@@ -104,18 +234,46 @@
         "titleLocation": "Find us at",
         "highlightLocation": "Yaounde-Ekoumdoum.",
         "locations": [
-          { "icon": "📍", "label": "Address", "val": "Yaounde-Ekoumdoum, next to Hotel Iris" },
-          { "icon": "🌍", "label": "City", "val": "Yaoundé, Cameroon" },
-          { "icon": "🕘", "label": "Hours", "val": "Monday – Saturday: 8:00 AM – 6:00 PM" }
+          {
+            "icon": "📍",
+            "label": "Address",
+            "val": "Yaounde-Ekoumdoum, next to Hotel Iris"
+          },
+          {
+            "icon": "🌍",
+            "label": "City",
+            "val": "Yaoundé, Cameroon"
+          },
+          {
+            "icon": "🕘",
+            "label": "Hours",
+            "val": "Monday – Saturday: 8:00 AM – 6:00 PM"
+          }
         ],
         "labelContact": "Direct Contact",
         "titleContact": "Contact us",
         "highlightContact": "right now.",
         "contacts": [
-          { "icon": "📞", "label": "Phone", "val": "+237 691 455 677" },
-          { "icon": "💬", "label": "WhatsApp", "val": "+237 671 893 467" },
-          { "icon": "✉️", "label": "Email", "val": "famatesscompanysa@gmail.com" },
-          { "icon": "⚡", "label": "Availability", "val": "Quick quote — Immediate availability" }
+          {
+            "icon": "📞",
+            "label": "Phone",
+            "val": "+237 691 455 677"
+          },
+          {
+            "icon": "💬",
+            "label": "WhatsApp",
+            "val": "+237 671 893 467"
+          },
+          {
+            "icon": "✉️",
+            "label": "Email",
+            "val": "famatesscompanysa@gmail.com"
+          },
+          {
+            "icon": "⚡",
+            "label": "Availability",
+            "val": "Quick quote — Immediate availability"
+          }
         ]
       },
       "vehicles": {
@@ -126,9 +284,18 @@
         },
         "count": "{count} vehicles displayed",
         "categories": [
-          { "key": "all", "label": "All Vehicles" },
-          { "key": "light", "label": "Light Vehicles" },
-          { "key": "heavy", "label": "Heavy Equipment" }
+          {
+            "key": "all",
+            "label": "All Vehicles"
+          },
+          {
+            "key": "light",
+            "label": "Light Vehicles"
+          },
+          {
+            "key": "heavy",
+            "label": "Heavy Equipment"
+          }
         ],
         "items": [
           {
@@ -138,7 +305,12 @@
             "name": "Toyota Land Cruiser V8 GXR LC 300",
             "short": "LC 300 GXR",
             "desc": "The ultimate premium SUV. 3.3L twin-turbo V8 diesel engine, exceptional off-road capability, ideal for the most demanding terrains in Cameroon.",
-            "specs": ["V8 Twin-Turbo 3.3L", "7 seats", "Permanent 4x4", "10-speed automatic"],
+            "specs": [
+              "V8 Twin-Turbo 3.3L",
+              "7 seats",
+              "Permanent 4x4",
+              "10-speed automatic"
+            ],
             "badge": "Premium",
             "badgeColor": "#FFA500",
             "image": "/Assets/cruiser1-no-bg.png"
@@ -150,7 +322,12 @@
             "name": "Toyota Hilux",
             "short": "Hilux",
             "desc": "The most durable pickup in the world. Essential for construction sites, humanitarian missions, and professional travel in harsh terrain.",
-            "specs": ["2.4L Diesel – 4 cyl.", "Double cabin", "Selectable 4x4", "1T payload"],
+            "specs": [
+              "2.4L Diesel – 4 cyl.",
+              "Double cabin",
+              "Selectable 4x4",
+              "1T payload"
+            ],
             "badge": "Best-seller",
             "badgeColor": "#00FF00",
             "image": "/Assets/hillux3-no-bg.png"
@@ -162,7 +339,12 @@
             "name": "Toyota Land Cruiser Prado",
             "short": "Prado",
             "desc": "The perfect balance between urban comfort and off-road strength. Ideal for executives traveling across Cameroonian cities and remote areas.",
-            "specs": ["2.8L Diesel 204hp", "5 or 7 seats", "Multi-terrain 4x4", "High suspension"],
+            "specs": [
+              "2.8L Diesel 204hp",
+              "5 or 7 seats",
+              "Multi-terrain 4x4",
+              "High suspension"
+            ],
             "badge": "Comfort",
             "badgeColor": "#0000FF",
             "image": "/Assets/prado2-no-bg.png"
@@ -174,7 +356,12 @@
             "name": "Excavator",
             "short": "Excavator",
             "desc": "High-performance hydraulic excavator for earthworks, foundations, mining, and large infrastructure projects.",
-            "specs": ["6 to 45 tons", "Heavy-duty hydraulic arm", "Multi-size buckets", "Air-conditioned cabin"],
+            "specs": [
+              "6 to 45 tons",
+              "Heavy-duty hydraulic arm",
+              "Multi-size buckets",
+              "Air-conditioned cabin"
+            ],
             "badge": "Excavation",
             "badgeColor": "#FF4500",
             "image": "/Assets/pelleteuse_pneus_01-no-bg.png"
@@ -186,7 +373,12 @@
             "name": "Motor Grader",
             "short": "Grader",
             "desc": "Motor grader for road construction and maintenance, tracks, sports fields, and public works surfaces.",
-            "specs": ["Blade 3.6 to 4.8m", "6 cyl. diesel engine", "Articulated or rigid", "Optional GPS"],
+            "specs": [
+              "Blade 3.6 to 4.8m",
+              "6 cyl. diesel engine",
+              "Articulated or rigid",
+              "Optional GPS"
+            ],
             "badge": "Road Works",
             "badgeColor": "#FFFF00",
             "image": "/Assets/nivelleuse2-no-bg.png"
@@ -198,7 +390,12 @@
             "name": "Bulldozer",
             "short": "Bulldozer",
             "desc": "Tracked bulldozer for clearing, stripping, backfilling, and pushing materials on large mining and civil engineering sites.",
-            "specs": ["U or S blade", "Rear ripper", "Heavy-duty diesel engine", "HST transmission"],
+            "specs": [
+              "U or S blade",
+              "Rear ripper",
+              "Heavy-duty diesel engine",
+              "HST transmission"
+            ],
             "badge": "Earthmoving",
             "badgeColor": "#FF8C00",
             "image": "/Assets/bulldozer1-no-bg.png"
@@ -210,7 +407,12 @@
             "name": "Wheel Loader",
             "short": "Loader",
             "desc": "Wheel loader for bulk material loading, clearing, and heavy handling on construction sites and quarries.",
-            "specs": ["1.8 to 5m³ bucket", "Articulated arm", "4-wheel drive", "Automatic transmission"],
+            "specs": [
+              "1.8 to 5m³ bucket",
+              "Articulated arm",
+              "4-wheel drive",
+              "Automatic transmission"
+            ],
             "badge": "Handling",
             "badgeColor": "#808000",
             "image": "/Assets/chargeuse-no-bg.png"
@@ -222,7 +424,12 @@
             "name": "Dump Truck",
             "short": "Dump Truck",
             "desc": "Construction dump truck for transporting materials, backfill, and construction waste. Built for the toughest conditions.",
-            "specs": ["10 to 50 tons", "Tipping bed", "Euro III/V engine", "Reinforced axle"],
+            "specs": [
+              "10 to 50 tons",
+              "Tipping bed",
+              "Euro III/V engine",
+              "Reinforced axle"
+            ],
             "badge": "Transport",
             "badgeColor": "#FF0000",
             "image": "/Assets/camion3-no-bg.png"
@@ -230,16 +437,28 @@
         ]
       },
       "activitiesHero": {
-        "breadcrumb": ["Home", "Activities"],
+        "breadcrumb": [
+          "Home",
+          "Activities"
+        ],
         "label": "Our Activities",
         "title": "Discover Our",
         "titleHighlight": "Vehicles",
         "description": "We offer a wide range of vehicles for all your business needs.\nYou have the possibility to rent and purchase our available vehicles as well as import cars into the country",
         "backgroundText": "AUTOMOBILE",
         "stats": [
-          { "value": "40+", "label": "Projects" },
-          { "value": "3", "label": "Years Experience" },
-          { "value": "1", "label": "Country Served" }
+          {
+            "value": "40+",
+            "label": "Projects"
+          },
+          {
+            "value": "3",
+            "label": "Years Experience"
+          },
+          {
+            "value": "1",
+            "label": "Country Served"
+          }
         ]
       },
       "categoryIntro": {
@@ -266,17 +485,53 @@
         "desc": "From import to delivery, we manage your full supply chain.",
         "highlight": "in all your operations.",
         "stats": [
-          { "val": "1", "label": "Country Served", "icon": "🌍" },
-          { "val": "24h", "label": "Responsiveness", "icon": "⚡" },
-          { "val": "100%", "label": "Traceability", "icon": "📍" },
-          { "val": "0", "label": "Hidden Fees", "icon": "✅" }
+          {
+            "val": "1",
+            "label": "Country Served",
+            "icon": "🌍"
+          },
+          {
+            "val": "24h",
+            "label": "Responsiveness",
+            "icon": "⚡"
+          },
+          {
+            "val": "100%",
+            "label": "Traceability",
+            "icon": "📍"
+          },
+          {
+            "val": "0",
+            "label": "Hidden Fees",
+            "icon": "✅"
+          }
         ],
         "operations": [
-          { "num": "01", "title": "Import of Vehicles", "icon": "🚢" },
-          { "num": "02", "title": "Export of Goods", "icon": "📦" },
-          { "num": "03", "title": "Customs Clearance", "icon": "📋" },
-          { "num": "04", "title": "Transport & Delivery", "icon": "🚚" },
-          { "num": "05", "title": "Tracking", "icon": "📍" }
+          {
+            "num": "01",
+            "title": "Import of Vehicles",
+            "icon": "🚢"
+          },
+          {
+            "num": "02",
+            "title": "Export of Goods",
+            "icon": "📦"
+          },
+          {
+            "num": "03",
+            "title": "Customs Clearance",
+            "icon": "📋"
+          },
+          {
+            "num": "04",
+            "title": "Transport & Delivery",
+            "icon": "🚚"
+          },
+          {
+            "num": "05",
+            "title": "Tracking",
+            "icon": "📍"
+          }
         ]
       },
       "fleetShowcase": {
@@ -373,25 +628,55 @@
         "logistics": "Logistics and Transports",
         "menu": "Menu",
         "menuItems": [
-          { "hash": "#/home", "label": "Home" },
-          { "hash": "#/about-us", "label": "About Us" },
-          { "hash": "#/choose-us", "label": "Why Choose Us" },
-          { "hash": "#/automobile", "label": "Famates Automobile" },
-          { "hash": "#/btp", "label": "Famatess Building and public Works" },
-          { "hash": "#/logistics", "label": "Famatess Logistics and Transport" }
+          {
+            "hash": "#/home",
+            "label": "Home"
+          },
+          {
+            "hash": "#/about-us",
+            "label": "About Us"
+          },
+          {
+            "hash": "#/choose-us",
+            "label": "Why Choose Us"
+          },
+          {
+            "hash": "#/automobile",
+            "label": "Famates Automobile"
+          },
+          {
+            "hash": "#/btp",
+            "label": "Famatess Building and public Works"
+          },
+          {
+            "hash": "#/logistics",
+            "label": "Famatess Logistics and Transport"
+          }
         ]
       },
       "aboutHero": {
         "watermark": "FAMATESS",
-        "breadcrumb": ["Home", "About Us"],
+        "breadcrumb": [
+          "Home",
+          "About Us"
+        ],
         "label": "About FAMATESS COMPANY",
         "titleLine1": "Built in Cameroon,",
         "titleHighlight": "serving all of Cameroon.",
         "description": "Founded in 2023, FAMATESS COMPANY is a multi-sector Cameroonian company delivering vehicles, construction, logistics and earthworks services across the country — with ambitions to grow throughout Central Africa.",
         "stats": [
-          { "value": "2023", "label": "Year founded" },
-          { "value": "4", "label": "Core divisions" },
-          { "value": "100%", "label": "Cameroonian" }
+          {
+            "value": "2023",
+            "label": "Year founded"
+          },
+          {
+            "value": "4",
+            "label": "Core divisions"
+          },
+          {
+            "value": "100%",
+            "label": "Cameroonian"
+          }
         ]
       },
       "aboutStory": {
@@ -404,11 +689,36 @@
           "Today we operate from <strong>Yaounde, Douala and Kribi</strong>, with a growing fleet, an experienced team, and the ambition to expand our footprint across the Central African sub-region."
         ],
         "milestones": [
-          { "year": "2023", "icon": "🚀", "title": "Founded", "desc": "FAMATESS COMPANY officially registered and begins operations in Yaoundé." },
-          { "year": "2023", "icon": "🚗", "title": "Vehicle Sales", "desc": "Launch of new and used vehicle sales division — Toyota, Mitsubishi, Isuzu, Suzuki, Yamaha." },
-          { "year": "2023", "icon": "🏗️", "title": "BTP Division", "desc": "Building & Public Works division opens, taking on first residential and road contracts." },
-          { "year": "2024", "icon": "🚛", "title": "Logistics Expansion", "desc": "Logistics & Transport division launched with dedicated heavy haulage and port operations." },
-          { "year": "2024", "icon": "🌍", "title": "Douala & Kribi", "desc": "Operations extended to Douala port hub and Kribi for deep-water cargo handling." }
+          {
+            "year": "2023",
+            "icon": "🚀",
+            "title": "Founded",
+            "desc": "FAMATESS COMPANY officially registered and begins operations in Yaoundé."
+          },
+          {
+            "year": "2023",
+            "icon": "🚗",
+            "title": "Vehicle Sales",
+            "desc": "Launch of new and used vehicle sales division — Toyota, Mitsubishi, Isuzu, Suzuki, Yamaha."
+          },
+          {
+            "year": "2023",
+            "icon": "🏗️",
+            "title": "BTP Division",
+            "desc": "Building & Public Works division opens, taking on first residential and road contracts."
+          },
+          {
+            "year": "2024",
+            "icon": "🚛",
+            "title": "Logistics Expansion",
+            "desc": "Logistics & Transport division launched with dedicated heavy haulage and port operations."
+          },
+          {
+            "year": "2024",
+            "icon": "🌍",
+            "title": "Douala & Kribi",
+            "desc": "Operations extended to Douala port hub and Kribi for deep-water cargo handling."
+          }
         ]
       },
       "aboutValues": {
@@ -417,12 +727,36 @@
         "titleHighlight": "define us every day.",
         "description": "These six values are not slogans — they are the standards we hold ourselves to in every project, every delivery, every conversation. They are the reason our clients come back.",
         "items": [
-          { "icon": "⚖️", "title": "Integrity", "desc": "We act with honesty and transparency in every relationship — with clients, partners, suppliers and our team. No hidden fees, no false promises." },
-          { "icon": "⏱️", "title": "Punctuality", "desc": "We commit to deadlines and honour them. Respect for your time and schedule is at the heart of how we plan and execute every project." },
-          { "icon": "🏆", "title": "Excellence", "desc": "We set high standards for quality in everything we deliver — from vehicle condition to construction finishes and cargo safety." },
-          { "icon": "🤝", "title": "Partnership", "desc": "We see every client as a long-term partner. Their success is our success — and we invest in building relationships that last." },
-          { "icon": "🌍", "title": "Local Pride", "desc": "We are proudly Cameroonian. We hire locally, work with local suppliers, and are committed to contributing to the development of our communities." },
-          { "icon": "💡", "title": "Adaptability", "desc": "Africa's markets move fast. We stay agile, embrace new solutions, and continuously improve our services to meet evolving client needs." }
+          {
+            "icon": "⚖️",
+            "title": "Integrity",
+            "desc": "We act with honesty and transparency in every relationship — with clients, partners, suppliers and our team. No hidden fees, no false promises."
+          },
+          {
+            "icon": "⏱️",
+            "title": "Punctuality",
+            "desc": "We commit to deadlines and honour them. Respect for your time and schedule is at the heart of how we plan and execute every project."
+          },
+          {
+            "icon": "🏆",
+            "title": "Excellence",
+            "desc": "We set high standards for quality in everything we deliver — from vehicle condition to construction finishes and cargo safety."
+          },
+          {
+            "icon": "🤝",
+            "title": "Partnership",
+            "desc": "We see every client as a long-term partner. Their success is our success — and we invest in building relationships that last."
+          },
+          {
+            "icon": "🌍",
+            "title": "Local Pride",
+            "desc": "We are proudly Cameroonian. We hire locally, work with local suppliers, and are committed to contributing to the development of our communities."
+          },
+          {
+            "icon": "💡",
+            "title": "Adaptability",
+            "desc": "Africa's markets move fast. We stay agile, embrace new solutions, and continuously improve our services to meet evolving client needs."
+          }
         ]
       },
       "aboutActivities": {
@@ -431,10 +765,58 @@
         "titleHighlight": "activities.",
         "learnMore": "Learn more →",
         "items": [
-          { "icon": "🚗", "title": "Vehicle Sales", "badge": "Core Activity", "desc": "New and used vehicle sales for individuals, companies and institutions. We supply light vehicles, pick-ups, SUVs and motorbikes from trusted brands.", "brands": ["Toyota", "Mitsubishi", "Isuzu", "Suzuki", "Yamaha"], "link": "/activities" },
-          { "icon": "🏗️", "title": "Building & Public Works (BTP)", "badge": "Core Activity", "desc": "Complete construction solutions — residential housing, commercial buildings, road building, and civil engineering across Cameroon.", "brands": ["House Building", "Road Construction", "Civil Engineering"], "link": "/btp" },
-          { "icon": "🚛", "title": "Logistics & Transport", "badge": "Core Activity", "desc": "End-to-end logistics: import/export freight, heavy haulage, road transport, warehousing and last-mile delivery across the CEMAC region.", "brands": ["Import/Export", "Heavy Haulage", "Warehousing", "Distribution"], "link": "/logistics" },
-          { "icon": "⛏️", "title": "Earthworks", "badge": "Core Activity", "desc": "Professional earthmoving operations — site clearing, bulk excavation, grading, backfilling and slope stabilisation using our own heavy equipment.", "brands": ["Excavation", "Grading", "Site Preparation", "Compaction"], "link": "/btp" }
+          {
+            "icon": "🚗",
+            "title": "Vehicle Sales",
+            "badge": "Core Activity",
+            "desc": "New and used vehicle sales for individuals, companies and institutions. We supply light vehicles, pick-ups, SUVs and motorbikes from trusted brands.",
+            "brands": [
+              "Toyota",
+              "Mitsubishi",
+              "Isuzu",
+              "Suzuki",
+              "Yamaha"
+            ],
+            "link": "/activities"
+          },
+          {
+            "icon": "🏗️",
+            "title": "Building & Public Works (BTP)",
+            "badge": "Core Activity",
+            "desc": "Complete construction solutions — residential housing, commercial buildings, road building, and civil engineering across Cameroon.",
+            "brands": [
+              "House Building",
+              "Road Construction",
+              "Civil Engineering"
+            ],
+            "link": "/btp"
+          },
+          {
+            "icon": "🚛",
+            "title": "Logistics & Transport",
+            "badge": "Core Activity",
+            "desc": "End-to-end logistics: import/export freight, heavy haulage, road transport, warehousing and last-mile delivery across the CEMAC region.",
+            "brands": [
+              "Import/Export",
+              "Heavy Haulage",
+              "Warehousing",
+              "Distribution"
+            ],
+            "link": "/logistics"
+          },
+          {
+            "icon": "⛏️",
+            "title": "Earthworks",
+            "badge": "Core Activity",
+            "desc": "Professional earthmoving operations — site clearing, bulk excavation, grading, backfilling and slope stabilisation using our own heavy equipment.",
+            "brands": [
+              "Excavation",
+              "Grading",
+              "Site Preparation",
+              "Compaction"
+            ],
+            "link": "/btp"
+          }
         ]
       },
       "aboutPresence": {
@@ -442,27 +824,106 @@
         "titleLine1": "Three cities,",
         "titleHighlight": "one mission.",
         "summary": [
-          { "label": "Yaoundé", "color": "#FFA500" },
-          { "label": "Douala", "color": "#1E90FF" },
-          { "label": "Kribi", "color": "#32CD32" }
+          {
+            "label": "Yaoundé",
+            "color": "#FFA500"
+          },
+          {
+            "label": "Douala",
+            "color": "#1E90FF"
+          },
+          {
+            "label": "Kribi",
+            "color": "#32CD32"
+          }
         ],
         "cities": [
-          { "name": "Yaoundé", "role": "Headquarters & Operations Centre", "roleColor": "#FFA500", "region": "Centre Region", "icon": "🏙️", "desc": "Our main office, showroom and operations hub. Vehicle sales, BTP project management, logistics coordination and all administrative functions are based here.", "services": ["Vehicle Showroom", "BTP Project Management", "Logistics HQ", "Administration", "Earthworks Base", "Customer Service"], "address": "Yaoundé-Ekoumdoum, next to Hôtel Iris", "image": "/about/yaounde.jpg", "size": "large" },
-          { "name": "Douala", "role": "Port & Logistics Hub", "roleColor": "#1E90FF", "region": "Littoral Region", "icon": "⚓", "desc": "Our Douala office handles all port-related operations — cargo clearance, container management, sea freight coordination and distribution across the Littoral region.", "services": ["Port Operations", "Import / Export", "Customs Clearance", "Warehousing", "Heavy Haulage", "Distribution"], "address": "Akwa Business District, Douala", "image": "/about/douala.jpg", "size": "normal" },
-          { "name": "Kribi", "role": "Deep-Water Port Access", "roleColor": "#32CD32", "region": "South Region", "icon": "🌊", "desc": "Our Kribi presence enables direct access to the deep-water port — ideal for oversized project cargo, mining equipment, industrial machinery and energy sector logistics.", "services": ["Deep-water Port Handling", "Project Cargo", "Oversized Haulage", "Mining Logistics", "Energy Sector", "Site Delivery"], "address": "Kribi Industrial Zone, South Region", "image": "/about/kribi.jpg", "size": "normal" }
+          {
+            "name": "Yaoundé",
+            "role": "Headquarters & Operations Centre",
+            "roleColor": "#FFA500",
+            "region": "Centre Region",
+            "icon": "🏙️",
+            "desc": "Our main office, showroom and operations hub. Vehicle sales, BTP project management, logistics coordination and all administrative functions are based here.",
+            "services": [
+              "Vehicle Showroom",
+              "BTP Project Management",
+              "Logistics HQ",
+              "Administration",
+              "Earthworks Base",
+              "Customer Service"
+            ],
+            "address": "Yaoundé-Ekoumdoum, next to Hôtel Iris",
+            "image": "/about/yaounde.jpg",
+            "size": "large"
+          },
+          {
+            "name": "Douala",
+            "role": "Port & Logistics Hub",
+            "roleColor": "#1E90FF",
+            "region": "Littoral Region",
+            "icon": "⚓",
+            "desc": "Our Douala office handles all port-related operations — cargo clearance, container management, sea freight coordination and distribution across the Littoral region.",
+            "services": [
+              "Port Operations",
+              "Import / Export",
+              "Customs Clearance",
+              "Warehousing",
+              "Heavy Haulage",
+              "Distribution"
+            ],
+            "address": "Akwa Business District, Douala",
+            "image": "/about/douala.jpg",
+            "size": "normal"
+          },
+          {
+            "name": "Kribi",
+            "role": "Deep-Water Port Access",
+            "roleColor": "#32CD32",
+            "region": "South Region",
+            "icon": "🌊",
+            "desc": "Our Kribi presence enables direct access to the deep-water port — ideal for oversized project cargo, mining equipment, industrial machinery and energy sector logistics.",
+            "services": [
+              "Deep-water Port Handling",
+              "Project Cargo",
+              "Oversized Haulage",
+              "Mining Logistics",
+              "Energy Sector",
+              "Site Delivery"
+            ],
+            "address": "Kribi Industrial Zone, South Region",
+            "image": "/about/kribi.jpg",
+            "size": "normal"
+          }
         ]
       },
       "btpHero": {
-        "breadcrumb": ["Home", "Our Activities", "BTP"],
+        "breadcrumb": [
+          "Home",
+          "Our Activities",
+          "BTP"
+        ],
         "label": "Buildings & Public Works",
         "headline": "Building the future",
         "headlineEm": "of Cameroon, together.",
         "description": "FAMATESS COMPANY's BTP division delivers complete construction solutions — from residential housing and civil infrastructure to earthworks and road building — across Cameroon and beyond.",
         "stats": [
-          { "num": "50+", "label": "Projects completed" },
-          { "num": "3", "label": "Core divisions" },
-          { "num": "100%", "label": "Local expertise" },
-          { "num": "On-time", "label": "Delivery record" }
+          {
+            "num": "50+",
+            "label": "Projects completed"
+          },
+          {
+            "num": "3",
+            "label": "Core divisions"
+          },
+          {
+            "num": "100%",
+            "label": "Local expertise"
+          },
+          {
+            "num": "On-time",
+            "label": "Delivery record"
+          }
         ]
       },
       "btpServices": {
@@ -470,23 +931,133 @@
         "headline": "Three pillars of",
         "headlineEm": "our BTP division.",
         "services": [
-          { "id": "housing", "icon": "🏗️", "color": "#FF8C1E", "title": "House Building", "subtitle": "Residential & Commercial Construction", "desc": "From individual villas to multi-storey residential complexes and commercial buildings, our teams deliver quality construction adapted to the Cameroonian climate and terrain.", "points": ["Architectural design & planning", "Foundation and structural works", "Masonry, rendering & finishing", "Roofing and waterproofing", "Electrical & plumbing installation", "Interior & exterior finishings"], "images": [{ "src": "/Assets/house2.jpg", "caption": "House construction — Yaoundé" }, { "src": "/Assets/comm.webp", "caption": "Commercial building — Douala" }] },
-          { "id": "roads", "icon": "🛣️", "color": "#0080FF", "title": "Road Building", "subtitle": "Roads, Highways & Urban Infrastructure", "desc": "We design and construct durable roads and highway infrastructure, using modern machinery and materials suited to tropical conditions — from rural tracks to urban expressways.", "points": ["Route survey & topographic studies", "Subgrade preparation & compaction", "Bituminous & concrete surfacing", "Drainage channels & culverts", "Road marking, signage & safety", "Bridge & overpass construction"], "images": [{ "src": "/Assets/urban2.webp", "caption": "Urban road construction" }, { "src": "/Assets/urban1.webp", "caption": "Rural road rehabilitation" }] },
-          { "id": "earthworks", "icon": "⛏️", "color": "#FFD700", "title": "Earthworks", "subtitle": "Excavation, Grading & Site Preparation", "desc": "Our heavy equipment fleet and skilled operators handle all earthmoving operations — from initial site clearing to precision grading, enabling construction projects to start on solid ground.", "points": ["Land clearing & vegetation removal", "Bulk excavation & cut-and-fill", "Site levelling & grading", "Trenching for utilities", "Embankment & backfilling", "Slope stabilisation"], "images": [{ "src": "/Assets/excaRural.jpg", "caption": "Excavation — industrial site" }, { "src": "/Assets/excaResi.avif", "caption": "Grading — residential lot" }] }
+          {
+            "id": "housing",
+            "icon": "🏗️",
+            "color": "#FF8C1E",
+            "title": "House Building",
+            "subtitle": "Residential & Commercial Construction",
+            "desc": "From individual villas to multi-storey residential complexes and commercial buildings, our teams deliver quality construction adapted to the Cameroonian climate and terrain.",
+            "points": [
+              "Architectural design & planning",
+              "Foundation and structural works",
+              "Masonry, rendering & finishing",
+              "Roofing and waterproofing",
+              "Electrical & plumbing installation",
+              "Interior & exterior finishings"
+            ],
+            "images": [
+              {
+                "src": "/Assets/house2.jpg",
+                "caption": "House construction — Yaoundé"
+              },
+              {
+                "src": "/Assets/comm.webp",
+                "caption": "Commercial building — Douala"
+              }
+            ]
+          },
+          {
+            "id": "roads",
+            "icon": "🛣️",
+            "color": "#0080FF",
+            "title": "Road Building",
+            "subtitle": "Roads, Highways & Urban Infrastructure",
+            "desc": "We design and construct durable roads and highway infrastructure, using modern machinery and materials suited to tropical conditions — from rural tracks to urban expressways.",
+            "points": [
+              "Route survey & topographic studies",
+              "Subgrade preparation & compaction",
+              "Bituminous & concrete surfacing",
+              "Drainage channels & culverts",
+              "Road marking, signage & safety",
+              "Bridge & overpass construction"
+            ],
+            "images": [
+              {
+                "src": "/Assets/urban2.webp",
+                "caption": "Urban road construction"
+              },
+              {
+                "src": "/Assets/urban1.webp",
+                "caption": "Rural road rehabilitation"
+              }
+            ]
+          },
+          {
+            "id": "earthworks",
+            "icon": "⛏️",
+            "color": "#FFD700",
+            "title": "Earthworks",
+            "subtitle": "Excavation, Grading & Site Preparation",
+            "desc": "Our heavy equipment fleet and skilled operators handle all earthmoving operations — from initial site clearing to precision grading, enabling construction projects to start on solid ground.",
+            "points": [
+              "Land clearing & vegetation removal",
+              "Bulk excavation & cut-and-fill",
+              "Site levelling & grading",
+              "Trenching for utilities",
+              "Embankment & backfilling",
+              "Slope stabilisation"
+            ],
+            "images": [
+              {
+                "src": "/Assets/excaRural.jpg",
+                "caption": "Excavation — industrial site"
+              },
+              {
+                "src": "/Assets/excaResi.avif",
+                "caption": "Grading — residential lot"
+              }
+            ]
+          }
         ]
       },
       "btpStats": {
         "figures": [
-          { "target": 50, "suffix": "+", "label": "Projects Completed", "icon": "🏗️" },
-          { "target": 100, "suffix": " km", "label": "Roads Built", "icon": "🛣️" },
-          { "target": 10, "suffix": "+", "label": "Years of Experience", "icon": "📅" },
-          { "valueOverride": "3", "label": "Core Divisions", "icon": "🔑" }
+          {
+            "target": 50,
+            "suffix": "+",
+            "label": "Projects Completed",
+            "icon": "🏗️"
+          },
+          {
+            "target": 100,
+            "suffix": " km",
+            "label": "Roads Built",
+            "icon": "🛣️"
+          },
+          {
+            "target": 10,
+            "suffix": "+",
+            "label": "Years of Experience",
+            "icon": "📅"
+          },
+          {
+            "valueOverride": "3",
+            "label": "Core Divisions",
+            "icon": "🔑"
+          }
         ],
         "whyItems": [
-          { "icon": "🚜", "title": "Own Equipment Fleet", "desc": "We own and operate our heavy machinery — no subcontracting delays, full schedule control." },
-          { "icon": "👷", "title": "Certified Teams", "desc": "All site supervisors and engineers hold nationally recognised qualifications and certifications." },
-          { "icon": "📦", "title": "End-to-End Service", "desc": "From design to delivery, a single contract covers everything — no hidden costs or scope gaps." },
-          { "icon": "🌿", "title": "Eco-Responsible", "desc": "We minimise site waste, respect local ecosystems and comply with all environmental regulations." }
+          {
+            "icon": "🚜",
+            "title": "Own Equipment Fleet",
+            "desc": "We own and operate our heavy machinery — no subcontracting delays, full schedule control."
+          },
+          {
+            "icon": "👷",
+            "title": "Certified Teams",
+            "desc": "All site supervisors and engineers hold nationally recognised qualifications and certifications."
+          },
+          {
+            "icon": "📦",
+            "title": "End-to-End Service",
+            "desc": "From design to delivery, a single contract covers everything — no hidden costs or scope gaps."
+          },
+          {
+            "icon": "🌿",
+            "title": "Eco-Responsible",
+            "desc": "We minimise site waste, respect local ecosystems and comply with all environmental regulations."
+          }
         ],
         "header": {
           "label": "Why FAMATESS BTP",
@@ -501,81 +1072,352 @@
           "desc": "Every FAMATESS BTP project follows a structured methodology that keeps your project on time, within budget, and built to last. We handle everything in-house — from initial study to final handover."
         },
         "steps": [
-          { "num": "01", "icon": "📋", "title": "Initial Consultation", "desc": "We begin with a thorough site visit and client consultation to understand scope, budget, timeline and technical constraints." },
-          { "num": "02", "icon": "📐", "title": "Study & Design", "desc": "Our technical team produces detailed plans, feasibility studies, cost estimates and obtains all required administrative permits." },
-          { "num": "03", "icon": "🚧", "title": "Site Preparation", "desc": "Earthworks and site preparation are carried out with our own fleet of heavy equipment — ensuring full control over quality and schedule." },
-          { "num": "04", "icon": "🏗️", "title": "Construction", "desc": "Structural works, civil engineering and finishing are executed by certified teams with regular quality control inspections at each phase." },
-          { "num": "05", "icon": "🔍", "title": "Quality Control", "desc": "Each project milestone undergoes rigorous technical inspection and client validation before proceeding to the next phase." },
-          { "num": "06", "icon": "🤝", "title": "Delivery & After-care", "desc": "We hand over completed projects with full documentation, warranties, and a dedicated after-care team for any post-delivery needs." }
+          {
+            "num": "01",
+            "icon": "📋",
+            "title": "Initial Consultation",
+            "desc": "We begin with a thorough site visit and client consultation to understand scope, budget, timeline and technical constraints."
+          },
+          {
+            "num": "02",
+            "icon": "📐",
+            "title": "Study & Design",
+            "desc": "Our technical team produces detailed plans, feasibility studies, cost estimates and obtains all required administrative permits."
+          },
+          {
+            "num": "03",
+            "icon": "🚧",
+            "title": "Site Preparation",
+            "desc": "Earthworks and site preparation are carried out with our own fleet of heavy equipment — ensuring full control over quality and schedule."
+          },
+          {
+            "num": "04",
+            "icon": "🏗️",
+            "title": "Construction",
+            "desc": "Structural works, civil engineering and finishing are executed by certified teams with regular quality control inspections at each phase."
+          },
+          {
+            "num": "05",
+            "icon": "🔍",
+            "title": "Quality Control",
+            "desc": "Each project milestone undergoes rigorous technical inspection and client validation before proceeding to the next phase."
+          },
+          {
+            "num": "06",
+            "icon": "🤝",
+            "title": "Delivery & After-care",
+            "desc": "We hand over completed projects with full documentation, warranties, and a dedicated after-care team for any post-delivery needs."
+          }
         ]
       },
       "btpProjects": {
-        "header": { "label": "Recent Projects", "title": "Work we're proud of.", "emphasis": "proud of." },
-        "filters": ["All", "House Building", "Road Building", "Earthworks"],
+        "header": {
+          "label": "Recent Projects",
+          "title": "Work we're proud of.",
+          "emphasis": "proud of."
+        },
+        "filters": [
+          "All",
+          "House Building",
+          "Road Building",
+          "Earthworks"
+        ],
         "projects": [
-          { "id": 1, "category": "House Building", "title": "Residential House ", "location": "Yaoundé, Centre Region", "year": "2024", "desc": "Construction of a 6-unit gated villa complex, including foundations, masonry, roofing, and full interior finishing.", "image": "/Assets/house1.webp", "size": "large" },
-          { "id": 2, "category": "Road Building", "title": "Urban Road Rehabilitation", "location": "Douala, Littoral Region", "year": "2024", "desc": "Rehabilitation of 4.2 km of urban road including drainage channels, bituminous surfacing and road markings.", "image": "/Assets/UrbanRoad.jpg", "size": "normal" },
-          { "id": 3, "category": "Earthworks", "title": "Industrial Site Grading", "location": "Bassa, Douala", "year": "2023", "desc": "Full site preparation for an industrial warehouse — clearing, bulk excavation, grading and compaction.", "image": "/Assets/excaResi.avif", "size": "normal" },
-          { "id": 4, "category": "Road Building", "title": "Rural Access Road", "location": "Bafoussam, West Region", "year": "2023", "desc": "12 km of new rural road including subgrade preparation, culverts and gravel surfacing for all-season access.", "image": "/Assets/RuralRoad.avif", "size": "normal" },
-          { "id": 5, "category": "House Building", "title": "Commercial Office Building", "location": "Yaoundé, Centre Region", "year": "2023", "desc": "Design and construction commercial office building ", "image": "/Assets/office.jfif", "size": "large" },
-          { "id": 6, "category": "Earthworks", "title": "Dam Embankment Works", "location": "Adamaoua Region", "year": "2022", "desc": "Earthworks and embankment construction for a small irrigation dam, including slope stabilisation.", "image": "/Assets/excaRural.jpg", "size": "normal" }
+          {
+            "id": 1,
+            "category": "House Building",
+            "title": "Residential House ",
+            "location": "Yaoundé, Centre Region",
+            "year": "2024",
+            "desc": "Construction of a 6-unit gated villa complex, including foundations, masonry, roofing, and full interior finishing.",
+            "image": "/Assets/house1.webp",
+            "size": "large"
+          },
+          {
+            "id": 2,
+            "category": "Road Building",
+            "title": "Urban Road Rehabilitation",
+            "location": "Douala, Littoral Region",
+            "year": "2024",
+            "desc": "Rehabilitation of 4.2 km of urban road including drainage channels, bituminous surfacing and road markings.",
+            "image": "/Assets/UrbanRoad.jpg",
+            "size": "normal"
+          },
+          {
+            "id": 3,
+            "category": "Earthworks",
+            "title": "Industrial Site Grading",
+            "location": "Bassa, Douala",
+            "year": "2023",
+            "desc": "Full site preparation for an industrial warehouse — clearing, bulk excavation, grading and compaction.",
+            "image": "/Assets/excaResi.avif",
+            "size": "normal"
+          },
+          {
+            "id": 4,
+            "category": "Road Building",
+            "title": "Rural Access Road",
+            "location": "Bafoussam, West Region",
+            "year": "2023",
+            "desc": "12 km of new rural road including subgrade preparation, culverts and gravel surfacing for all-season access.",
+            "image": "/Assets/RuralRoad.avif",
+            "size": "normal"
+          },
+          {
+            "id": 5,
+            "category": "House Building",
+            "title": "Commercial Office Building",
+            "location": "Yaoundé, Centre Region",
+            "year": "2023",
+            "desc": "Design and construction commercial office building ",
+            "image": "/Assets/office.jfif",
+            "size": "large"
+          },
+          {
+            "id": 6,
+            "category": "Earthworks",
+            "title": "Dam Embankment Works",
+            "location": "Adamaoua Region",
+            "year": "2022",
+            "desc": "Earthworks and embankment construction for a small irrigation dam, including slope stabilisation.",
+            "image": "/Assets/excaRural.jpg",
+            "size": "normal"
+          }
         ]
       },
       "logisticsHero": {
-        "breadcrumb": ["Home", "Our Activities", "Logistics & Transport"],
+        "breadcrumb": [
+          "Home",
+          "Our Activities",
+          "Logistics & Transport"
+        ],
         "label": "Logistics & Transport",
         "headlineBefore": "Moving goods across",
         "headlineEmphasis": "Cameroon, reliably.",
         "description": "FAMATESS COMPANY's Logistics division provides end-to-end transport and supply chain solutions from goods importation and heavy-load haulage to secure cargo tracking and last-mile delivery across Cameroon and the Central African sub-region.",
         "watermark": "LOGISTICS",
-        "stats": [["20+", "Vehicle fleet"], ["1", "Country covered"], ["24/7", "Tracking & support"], ["100%", "Insured cargo"]]
+        "stats": [
+          [
+            "20+",
+            "Vehicle fleet"
+          ],
+          [
+            "1",
+            "Country covered"
+          ],
+          [
+            "24/7",
+            "Tracking & support"
+          ],
+          [
+            "100%",
+            "Insured cargo"
+          ]
+        ]
       },
       "logistics": {
-        "header": { "label": "Our Services", "title": "Four pillars of our logistics division." },
+        "header": {
+          "label": "Our Services",
+          "title": "Four pillars of our logistics division."
+        },
         "services": [
-          { "id": "import-export", "icon": "🚢", "color": "#3498db", "title": "Import & Export", "subtitle": "International Trade Logistics", "desc": "We manage the full import and export cycle for vehicles, machinery, industrial equipment and consumer goods — handling all shipping, customs clearance and documentation on your behalf.", "points": ["Sea freight booking & container management", "Air freight for urgent or high-value cargo", "Import & export customs clearance", "Administrative & regulatory compliance", "Port handling and cargo release", "Door-to-port and port-to-door delivery"], "images": [{ "src": "/Assets/ContainerHandling.jpg", "caption": "Container handling — Douala Port" }, { "src": "/Assets/AirFreightHandling.jpg", "caption": "Air freight operations" }] },
-          { "id": "heavy-haulage", "icon": "🚛", "color": "#e67e22", "title": "Heavy Haulage", "subtitle": "Oversized & Special Cargo Transport", "desc": "Our fleet of low-loaders, flatbed trailers and heavy trucks is purpose-built for transporting construction machinery, industrial equipment and oversized cargo safely across the region.", "points": ["Low-loader transport for heavy machinery", "Flatbed transport for construction equipment", "Oversized and out-of-gauge cargo", "Route survey and escort services", "Loading, securing and tie-down", "Cross-border heavy transport permits"], "images": [{ "src": "/Assets/LowLoader.jfif", "caption": "Low-loader with excavator" }, { "src": "/Assets/oversizedCargo2.webp", "caption": "Oversized cargo escort" }] }
+          {
+            "id": "import-export",
+            "icon": "🚢",
+            "color": "#3498db",
+            "title": "Import & Export",
+            "subtitle": "International Trade Logistics",
+            "desc": "We manage the full import and export cycle for vehicles, machinery, industrial equipment and consumer goods — handling all shipping, customs clearance and documentation on your behalf.",
+            "points": [
+              "Sea freight booking & container management",
+              "Air freight for urgent or high-value cargo",
+              "Import & export customs clearance",
+              "Administrative & regulatory compliance",
+              "Port handling and cargo release",
+              "Door-to-port and port-to-door delivery"
+            ],
+            "images": [
+              {
+                "src": "/Assets/ContainerHandling.jpg",
+                "caption": "Container handling — Douala Port"
+              },
+              {
+                "src": "/Assets/AirFreightHandling.jpg",
+                "caption": "Air freight operations"
+              }
+            ]
+          },
+          {
+            "id": "heavy-haulage",
+            "icon": "🚛",
+            "color": "#e67e22",
+            "title": "Heavy Haulage",
+            "subtitle": "Oversized & Special Cargo Transport",
+            "desc": "Our fleet of low-loaders, flatbed trailers and heavy trucks is purpose-built for transporting construction machinery, industrial equipment and oversized cargo safely across the region.",
+            "points": [
+              "Low-loader transport for heavy machinery",
+              "Flatbed transport for construction equipment",
+              "Oversized and out-of-gauge cargo",
+              "Route survey and escort services",
+              "Loading, securing and tie-down",
+              "Cross-border heavy transport permits"
+            ],
+            "images": [
+              {
+                "src": "/Assets/LowLoader.jfif",
+                "caption": "Low-loader with excavator"
+              },
+              {
+                "src": "/Assets/oversizedCargo2.webp",
+                "caption": "Oversized cargo escort"
+              }
+            ]
+          }
         ]
       },
       "logisticsStats": {
-        "header": { "label": "Why FAMATESS Logistics", "line1": "Your cargo is safe", "line2": "in our hands." },
+        "header": {
+          "label": "Why FAMATESS Logistics",
+          "line1": "Your cargo is safe",
+          "line2": "in our hands."
+        },
         "figures": [
-          { "target": 20, "suffix": "+", "label": "Vehicles in fleet", "icon": "🚛" },
-          { "target": 1, "suffix": "+", "label": "Country covered", "icon": "🌍" },
-          { "target": 500, "suffix": "+", "label": "Deliveries per year", "icon": "📦" },
-          { "valueOverride": "24/7", "label": "Tracking & support", "icon": "📡" }
+          {
+            "target": 20,
+            "suffix": "+",
+            "label": "Vehicles in fleet",
+            "icon": "🚛"
+          },
+          {
+            "target": 1,
+            "suffix": "+",
+            "label": "Country covered",
+            "icon": "🌍"
+          },
+          {
+            "target": 500,
+            "suffix": "+",
+            "label": "Deliveries per year",
+            "icon": "📦"
+          },
+          {
+            "valueOverride": "24/7",
+            "label": "Tracking & support",
+            "icon": "📡"
+          }
         ],
         "whyItems": [
-          { "icon": "🔒", "title": "Fully Insured Cargo", "desc": "All goods transported by FAMATESS are covered by comprehensive cargo insurance — giving you total peace of mind." },
-          { "icon": "📡", "title": "Real-time GPS Tracking", "desc": "Every vehicle in our fleet is GPS-equipped. You receive live updates and notifications throughout your shipment." },
-          { "icon": "📋", "title": "End-to-end Documentation", "desc": "We handle all shipping papers, customs declarations, transit permits and delivery records on your behalf." },
-          { "icon": "🤝", "title": "Single Point of Contact", "desc": "One dedicated logistics coordinator manages your shipment from first contact to final delivery — no handoffs, no confusion." }
+          {
+            "icon": "🔒",
+            "title": "Fully Insured Cargo",
+            "desc": "All goods transported by FAMATESS are covered by comprehensive cargo insurance — giving you total peace of mind."
+          },
+          {
+            "icon": "📡",
+            "title": "Real-time GPS Tracking",
+            "desc": "Every vehicle in our fleet is GPS-equipped. You receive live updates and notifications throughout your shipment."
+          },
+          {
+            "icon": "📋",
+            "title": "End-to-end Documentation",
+            "desc": "We handle all shipping papers, customs declarations, transit permits and delivery records on your behalf."
+          },
+          {
+            "icon": "🤝",
+            "title": "Single Point of Contact",
+            "desc": "One dedicated logistics coordinator manages your shipment from first contact to final delivery — no handoffs, no confusion."
+          }
         ]
       },
       "logisticsProcess": {
-        "header": { "label": "How It Works", "line1": "Simple, transparent", "line2": "from enquiry to delivery.", "desc": "Our 6-step logistics process is designed to give you full visibility and confidence at every stage — from the moment you contact us to the moment your goods arrive safely at destination." },
+        "header": {
+          "label": "How It Works",
+          "line1": "Simple, transparent",
+          "line2": "from enquiry to delivery.",
+          "desc": "Our 6-step logistics process is designed to give you full visibility and confidence at every stage — from the moment you contact us to the moment your goods arrive safely at destination."
+        },
         "steps": [
-          { "num": "01", "icon": "📞", "title": "Enquiry & Quotation", "desc": "Contact our logistics team with your cargo details. We assess requirements and provide a detailed, transparent quote within 24 hours." },
-          { "num": "02", "icon": "📋", "title": "Planning & Routing", "desc": "Our team plans the optimal route, selects the right vehicle, arranges permits and coordinates all customs documentation." },
-          { "num": "03", "icon": "📦", "title": "Cargo Collection", "desc": "We collect your goods from the origin point — port, warehouse, supplier — with proper loading, securing and inventory recording." },
-          { "num": "04", "icon": "🛣️", "title": "Transport & Transit", "desc": "Your cargo moves with our dedicated vehicle and driver. Real-time GPS tracking keeps you informed at every stage of the journey." },
-          { "num": "05", "icon": "🔍", "title": "Customs & Compliance", "desc": "For cross-border and import/export shipments, we manage all customs formalities, duties, transit documents and border procedures." },
-          { "num": "06", "icon": "✅", "title": "Delivery & Confirmation", "desc": "Goods are delivered to the final destination with signed proof of delivery. Our team follows up to confirm your full satisfaction." }
+          {
+            "num": "01",
+            "icon": "📞",
+            "title": "Enquiry & Quotation",
+            "desc": "Contact our logistics team with your cargo details. We assess requirements and provide a detailed, transparent quote within 24 hours."
+          },
+          {
+            "num": "02",
+            "icon": "📋",
+            "title": "Planning & Routing",
+            "desc": "Our team plans the optimal route, selects the right vehicle, arranges permits and coordinates all customs documentation."
+          },
+          {
+            "num": "03",
+            "icon": "📦",
+            "title": "Cargo Collection",
+            "desc": "We collect your goods from the origin point — port, warehouse, supplier — with proper loading, securing and inventory recording."
+          },
+          {
+            "num": "04",
+            "icon": "🛣️",
+            "title": "Transport & Transit",
+            "desc": "Your cargo moves with our dedicated vehicle and driver. Real-time GPS tracking keeps you informed at every stage of the journey."
+          },
+          {
+            "num": "05",
+            "icon": "🔍",
+            "title": "Customs & Compliance",
+            "desc": "For cross-border and import/export shipments, we manage all customs formalities, duties, transit documents and border procedures."
+          },
+          {
+            "num": "06",
+            "icon": "✅",
+            "title": "Delivery & Confirmation",
+            "desc": "Goods are delivered to the final destination with signed proof of delivery. Our team follows up to confirm your full satisfaction."
+          }
         ]
       },
       "heroMain": {
         "watermark": "FAMATESS",
         "ctaSecondary": "Contact us",
         "stats": [
-          { "num": "1", "label": "Country Served" },
-          { "num": "8", "label": "Available models" },
-          { "num": "Service", "label": "After-sales" },
-          { "num": "New", "label": "Guaranteed" }
+          {
+            "num": "1",
+            "label": "Country Served"
+          },
+          {
+            "num": "8",
+            "label": "Available models"
+          },
+          {
+            "num": "Service",
+            "label": "After-sales"
+          },
+          {
+            "num": "New",
+            "label": "Guaranteed"
+          }
         ],
         "slides": [
-          { "tag": "Automobiles", "headline": "Power &\nmobility", "sub": "A complete range of vehicles adapted to all your professional needs across Cameroon.", "cta": "View our Automobiles", "link": "/automobile" },
-          { "tag": "BTP", "headline": "Strength &\nperformance", "sub": "High-performance equipment for construction and public works projects.", "cta": "View Building and Public Works", "link": "/btp" },
-          { "tag": "Transport & Logistics", "headline": "Reliable &\nefficient logistics", "sub": "Optimized transport and logistics solutions for your operations across Cameroon.", "cta": "View Logistics and Transport", "link": "/logistics" }
+          {
+            "tag": "Automobiles",
+            "headline": "Power &\nmobility",
+            "sub": "A complete range of vehicles adapted to all your professional needs across Cameroon.",
+            "cta": "View our Automobiles",
+            "link": "/automobile"
+          },
+          {
+            "tag": "BTP",
+            "headline": "Strength &\nperformance",
+            "sub": "High-performance equipment for construction and public works projects.",
+            "cta": "View Building and Public Works",
+            "link": "/btp"
+          },
+          {
+            "tag": "Transport & Logistics",
+            "headline": "Reliable &\nefficient logistics",
+            "sub": "Optimized transport and logistics solutions for your operations across Cameroon.",
+            "cta": "View Logistics and Transport",
+            "link": "/logistics"
+          }
         ]
       },
       "hero": {
@@ -589,12 +1431,31 @@
         "eyebrow": "Investor Relations",
         "heading": "A listed group on Euronext Paris.",
         "body": "FAMATESS COMPANY is listed on Euronext.",
-        "buttons": ["Financial Reports", "Shareholder Info"],
+        "buttons": [
+          "Financial Reports",
+          "Shareholder Info"
+        ],
         "stats": [
-          { "label": "Share Price", "val": "€32.40", "sub": "Paris" },
-          { "label": "Market Cap", "val": "€1.8B", "sub": "2025" },
-          { "label": "Dividend", "val": "€1.20", "sub": "Per share" },
-          { "label": "Rating", "val": "BB+", "sub": "S&P" }
+          {
+            "label": "Share Price",
+            "val": "€32.40",
+            "sub": "Paris"
+          },
+          {
+            "label": "Market Cap",
+            "val": "€1.8B",
+            "sub": "2025"
+          },
+          {
+            "label": "Dividend",
+            "val": "€1.20",
+            "sub": "Per share"
+          },
+          {
+            "label": "Rating",
+            "val": "BB+",
+            "sub": "S&P"
+          }
         ]
       },
       "notFound": {
@@ -607,19 +1468,46 @@
         "watermark": "404",
         "quickNavLabel": "Or jump to:",
         "links": [
-          { "label": "Famatess Automobile", "href": "#/automobile" },
-          { "label": "BTP", "href": "#/btp" },
-          { "label": "Logistics", "href": "#/logistics" },
-          { "label": "About Us", "href": "#/about-us" },
-          { "label": "Contact", "href": "#/localisation" }
+          {
+            "label": "Famatess Automobile",
+            "href": "#/automobile"
+          },
+          {
+            "label": "BTP",
+            "href": "#/btp"
+          },
+          {
+            "label": "Logistics",
+            "href": "#/logistics"
+          },
+          {
+            "label": "About Us",
+            "href": "#/about-us"
+          },
+          {
+            "label": "Contact",
+            "href": "#/localisation"
+          }
         ]
       },
       "sustainability": {
         "title": "Sustainability Pillars",
         "pillars": [
-          { "icon": "🌱", "title": "Eco-Friendly Fleet", "desc": "Our cars are energy-efficient and low-emission." },
-          { "icon": "⚡", "title": "Clean Energy", "desc": "We promote renewable energy sources at our facilities." },
-          { "icon": "🤝", "title": "Community Engagement", "desc": "Supporting local communities and social initiatives." }
+          {
+            "icon": "🌱",
+            "title": "Eco-Friendly Fleet",
+            "desc": "Our cars are energy-efficient and low-emission."
+          },
+          {
+            "icon": "⚡",
+            "title": "Clean Energy",
+            "desc": "We promote renewable energy sources at our facilities."
+          },
+          {
+            "icon": "🤝",
+            "title": "Community Engagement",
+            "desc": "Supporting local communities and social initiatives."
+          }
         ]
       },
       "sidebar": {
@@ -631,34 +1519,93 @@
       },
       "whyFamatess": {
         "label": "FAMATESS COMPANY",
-        "header": { "line1": "The right service", "line2": "at the best price." },
+        "header": {
+          "line1": "The right service",
+          "line2": "at the best price."
+        },
         "points": [
-          { "icon": "🚢", "title": "New Vehicle Importation", "desc": "Brand-new vehicles imported directly from manufacturers with full original warranties." },
-          { "icon": "🔧", "title": "After-Sales Service", "desc": "Network of certified technicians and genuine spare parts available across Cameroon." },
-          { "icon": "📄", "title": "Customs Clearance Included", "desc": "Full management of customs procedures and import documentation." },
-          { "icon": "💼", "title": "Financing Solutions", "desc": "Leasing, credit, and financing options tailored to your projects." }
+          {
+            "icon": "🚢",
+            "title": "New Vehicle Importation",
+            "desc": "Brand-new vehicles imported directly from manufacturers with full original warranties."
+          },
+          {
+            "icon": "🔧",
+            "title": "After-Sales Service",
+            "desc": "Network of certified technicians and genuine spare parts available across Cameroon."
+          },
+          {
+            "icon": "📄",
+            "title": "Customs Clearance Included",
+            "desc": "Full management of customs procedures and import documentation."
+          },
+          {
+            "icon": "💼",
+            "title": "Financing Solutions",
+            "desc": "Leasing, credit, and financing options tailored to your projects."
+          }
         ]
       },
       "heroChooseUs": {
-        "breadcrumb": ["Home", "Why Choose Us"],
+        "breadcrumb": [
+          "Home",
+          "Why Choose Us"
+        ],
         "label": "Why Choose Us",
         "titleLine1": "Why choose",
         "titleHighlight": "FAMATESS COMPANY?",
         "description": "FAMATESS COMPANY supports its clients in all their business operations across Cameroon. Reliability, expertise, and transparency are our commitments.",
         "stats": [
-          { "value": "1", "label": "Country Served" },
-          { "value": "24h", "label": "Responsiveness" },
-          { "value": "100%", "label": "Traceability" },
-          { "value": "0", "label": "Hidden Fees" }
+          {
+            "value": "1",
+            "label": "Country Served"
+          },
+          {
+            "value": "24h",
+            "label": "Responsiveness"
+          },
+          {
+            "value": "100%",
+            "label": "Traceability"
+          },
+          {
+            "value": "0",
+            "label": "Hidden Fees"
+          }
         ]
       },
       "whyChooseUs": {
-        "header": { "label": "Our Commitments", "line1": "Four reasons to", "line2": "trust us.", "desc": "Every commitment we make to our clients reflects our core values: operational excellence, integrity, and customer satisfaction." },
+        "header": {
+          "label": "Our Commitments",
+          "line1": "Four reasons to",
+          "line2": "trust us.",
+          "desc": "Every commitment we make to our clients reflects our core values: operational excellence, integrity, and customer satisfaction."
+        },
         "reasons": [
-          { "num": "01", "title": "Experienced and Responsive Team", "desc": "Qualified professionals ready to meet your needs quickly and expertly.", "icon": "👥" },
-          { "num": "02", "title": "Strict Deadline Compliance", "desc": "We commit to precise timelines and honor all our contractual agreements.", "icon": "⏱️" },
-          { "num": "03", "title": "Competitive and Transparent Pricing", "desc": "Fair prices with no surprises — detailed quotes, clear billing, no hidden fees.", "icon": "💰" },
-          { "num": "04", "title": "Customer Satisfaction at the Heart", "desc": "Your success is our mission. We provide personalized follow-up at every step.", "icon": "⭐" }
+          {
+            "num": "01",
+            "title": "Experienced and Responsive Team",
+            "desc": "Qualified professionals ready to meet your needs quickly and expertly.",
+            "icon": "👥"
+          },
+          {
+            "num": "02",
+            "title": "Strict Deadline Compliance",
+            "desc": "We commit to precise timelines and honor all our contractual agreements.",
+            "icon": "⏱️"
+          },
+          {
+            "num": "03",
+            "title": "Competitive and Transparent Pricing",
+            "desc": "Fair prices with no surprises — detailed quotes, clear billing, no hidden fees.",
+            "icon": "💰"
+          },
+          {
+            "num": "04",
+            "title": "Customer Satisfaction at the Heart",
+            "desc": "Your success is our mission. We provide personalized follow-up at every step.",
+            "icon": "⭐"
+          }
         ]
       },
       "footer": {
@@ -666,24 +1613,143 @@
         "tagline": "The right service at the best price",
         "description": "Speed, Security, Reliability",
         "cols": [
-          { "title": "Company", "links": [{ "label": "About Us", "hash": "#/about-us" }, { "label": "Careers", "hash": "#/about-us" }, { "label": "News", "hash": "#/about-us" }, { "label": "Contact", "hash": "#/choose-us#contact" }] },
-          { "title": "Activities", "links": [{ "label": "Automotive", "hash": "#/activities" }, { "label": "Healthcare", "hash": "#/activities" }, { "label": "Mobility", "hash": "#/activities" }, { "label": "Logistics", "hash": "#/activities" }, { "label": "Building and Public Works", "hash": "#/btp" }] },
-          { "title": "Location", "links": [{ "label": "Yaounde - Ekoumdoum", "hash": "#/choose-us#contact" }, { "label": "Monday–Saturday 8:00–18:00", "hash": "#/choose-us#contact" }, { "label": "Tel: +237 691 455 677", "hash": "tel:+237691455677" }, { "label": "WhatsApp: +237 671 893 467", "hash": "https://wa.me/237671893467" }, { "label": "Email: famatesscompanysa@gmail.com", "hash": "mailto:famatesscompanysa@gmail.com" }] }
+          {
+            "title": "Company",
+            "links": [
+              {
+                "label": "About Us",
+                "hash": "#/about-us"
+              },
+              {
+                "label": "Careers",
+                "hash": "#/about-us"
+              },
+              {
+                "label": "News",
+                "hash": "#/about-us"
+              },
+              {
+                "label": "Contact",
+                "hash": "#/choose-us#contact"
+              }
+            ]
+          },
+          {
+            "title": "Activities",
+            "links": [
+              {
+                "label": "Automotive",
+                "hash": "#/activities"
+              },
+              {
+                "label": "Healthcare",
+                "hash": "#/activities"
+              },
+              {
+                "label": "Mobility",
+                "hash": "#/activities"
+              },
+              {
+                "label": "Logistics",
+                "hash": "#/activities"
+              },
+              {
+                "label": "Building and Public Works",
+                "hash": "#/btp"
+              }
+            ]
+          },
+          {
+            "title": "Location",
+            "links": [
+              {
+                "label": "Yaounde - Ekoumdoum",
+                "hash": "#/choose-us#contact"
+              },
+              {
+                "label": "Monday–Saturday 8:00–18:00",
+                "hash": "#/choose-us#contact"
+              },
+              {
+                "label": "Tel: +237 691 455 677",
+                "hash": "tel:+237691455677"
+              },
+              {
+                "label": "WhatsApp: +237 671 893 467",
+                "hash": "https://wa.me/237671893467"
+              },
+              {
+                "label": "Email: famatesscompanysa@gmail.com",
+                "hash": "mailto:famatesscompanysa@gmail.com"
+              }
+            ]
+          }
         ],
-        "bottomLinks": ["Legal Notice", "Privacy Policy", "Cookie Settings", "Sitemap"],
+        "bottomLinks": [
+          "Legal Notice",
+          "Privacy Policy",
+          "Cookie Settings",
+          "Sitemap"
+        ],
         "copyright": "© 2026 FAMATESS COMPANY. All rights reserved."
       },
       "legal": {
-        "introBand": { "text": "Welcome to Famatess Company legal information." },
-        "tocSidebar": { "contents": "Contents", "related": "Related" },
-        "hostingProvider": { "text1": "The Famatess websites are hosted by:", "text2": "Content delivery and DNS management are handled via Cloudflare, Inc. (101 Townsend St, San Francisco, CA 94107, USA).", "infoBox": "All user data is stored on servers located within the European Economic Area (EEA) in compliance with GDPR requirements for international data transfers." },
-        "intellectualProperty": { "text1": "All content on Famatess Company websites — including but not limited to text, articles, press releases, photographs, logos, graphics, illustrations, videos, animations, and software — is the exclusive property of Famatess Company or has been licensed for use by Famatess Company from its rightful owners.", "text2": "This content is protected by French and international intellectual property laws, including:", "protectedItems": ["French Intellectual Property Code (Code de la Propriété Intellectuelle)", "Directive 2001/29/EC of the European Parliament on copyright in the information society", "Berne Convention for the Protection of Literary and Artistic Works", "TRIPS Agreement (Trade-Related Aspects of Intellectual Property Rights)"], "strictlyProhibited": "Strictly Prohibited Without Prior Written Authorisation", "trademarkText": "The Famatess Company® name and logo, as well as all product and service names referenced on this website, are registered trademarks of Famatess Company. Any unauthorised use constitutes trademark infringement.", "contact": "For authorisation requests, please contact: legal@famatesscompanysa@gmail.com" },
-        "limitationOfLiability": { "text1": "Famatess makes every effort to ensure the accuracy, completeness, and currency of the information published on its websites. However, the information is provided for general informational purposes only and does not constitute legal, financial, or professional advice.", "warning": "Famatess cannot be held liable for any direct or indirect damages, loss of data, loss of opportunity, or any other prejudice arising from the use of or inability to use the information contained on this website.", "text2": "In particular, Famatess Company accepts no liability for:", "text3": "The information published on this website relating to financial performance, forward-looking statements, and market projections is subject to risks and uncertainties that could cause actual results to differ materially." },
-        "hyperlinksExternal": { "text1": "This website may contain links to third-party websites operated independently of Famatess Company. These links are provided for convenience only.", "text2": "If you wish to create a hyperlink to this website, you must obtain prior written authorisation from Famatess Company. Any deep-linking, framing, or inline linking of our content is strictly prohibited without express written consent.", "text3": "To request authorisation for linking: webmaster@famatesscompanysa@gmail.com" },
-        "personalDataProtection": { "text1": "Famatess Company processes personal data in accordance with the EU General Data Protection Regulation (GDPR — Regulation 2016/679) and applicable national data protection laws.", "text2": "You have the right to access, rectify, erase, restrict, and port your personal data, as well as the right to object to certain processing activities. For full details, please consult our Personal Data Policy.", "text3": "To exercise your rights or for any data protection enquiry, contact our Data Protection Officer at: dpo@famatesscompanysa@gmail.com", "text4": "If you are not satisfied with our response, you have the right to lodge a complaint with the CNIL (Commission Nationale de l'Informatique et des Libertés) at www.cnil.fr." },
-        "cookiesSection": { "text1": "This website uses cookies and similar tracking technologies to ensure proper functionality, analyse traffic, and improve the user experience.", "text2": "For full information on the cookies we use and to manage your preferences, please consult our Cookies Policy." },
-        "applicableLaw": { "text1": "These Legal Mentions are governed by and construed in accordance with French law, without prejudice to any mandatory provisions of local law applicable in the user's country of residence.", "text2": "In the event of any dispute arising from the use of this website or its content that cannot be resolved amicably, exclusive jurisdiction is conferred upon the courts of Paris, France, unless mandatory consumer protection laws in the user's jurisdiction provide otherwise.", "text3": "For users in Cameroonian markets, Famatess Company also complies with applicable national digital economy laws, including ECOWAS Supplementary Act A/SA.1/01/10 on Personal Data Protection and equivalent regional instruments.", "text4": "Users based in the European Union also benefit from the protections afforded by applicable EU consumer law and may use the EU Online Dispute Resolution platform: ec.europa.eu/consumers/odr" },
-        "contactSection": { "text1": "For any questions regarding these Legal Mentions, or for any general enquiry about Famatess Company, please use the following contact details:", "hqSubtitle": "the right service at the best price" }
+        "introBand": {
+          "text": "Welcome to Famatess Company legal information."
+        },
+        "tocSidebar": {
+          "contents": "Contents",
+          "related": "Related"
+        },
+        "hostingProvider": {
+          "text1": "The Famatess websites are hosted by:",
+          "text2": "Content delivery and DNS management are handled via Cloudflare, Inc. (101 Townsend St, San Francisco, CA 94107, USA).",
+          "infoBox": "All user data is stored on servers located within the European Economic Area (EEA) in compliance with GDPR requirements for international data transfers."
+        },
+        "intellectualProperty": {
+          "text1": "All content on Famatess Company websites — including but not limited to text, articles, press releases, photographs, logos, graphics, illustrations, videos, animations, and software — is the exclusive property of Famatess Company or has been licensed for use by Famatess Company from its rightful owners.",
+          "text2": "This content is protected by French and international intellectual property laws, including:",
+          "protectedItems": [
+            "French Intellectual Property Code (Code de la Propriété Intellectuelle)",
+            "Directive 2001/29/EC of the European Parliament on copyright in the information society",
+            "Berne Convention for the Protection of Literary and Artistic Works",
+            "TRIPS Agreement (Trade-Related Aspects of Intellectual Property Rights)"
+          ],
+          "strictlyProhibited": "Strictly Prohibited Without Prior Written Authorisation",
+          "trademarkText": "The Famatess Company® name and logo, as well as all product and service names referenced on this website, are registered trademarks of Famatess Company. Any unauthorised use constitutes trademark infringement.",
+          "contact": "For authorisation requests, please contact: legal@famatesscompanysa@gmail.com"
+        },
+        "limitationOfLiability": {
+          "text1": "Famatess makes every effort to ensure the accuracy, completeness, and currency of the information published on its websites. However, the information is provided for general informational purposes only and does not constitute legal, financial, or professional advice.",
+          "warning": "Famatess cannot be held liable for any direct or indirect damages, loss of data, loss of opportunity, or any other prejudice arising from the use of or inability to use the information contained on this website.",
+          "text2": "In particular, Famatess Company accepts no liability for:",
+          "text3": "The information published on this website relating to financial performance, forward-looking statements, and market projections is subject to risks and uncertainties that could cause actual results to differ materially."
+        },
+        "hyperlinksExternal": {
+          "text1": "This website may contain links to third-party websites operated independently of Famatess Company. These links are provided for convenience only.",
+          "text2": "If you wish to create a hyperlink to this website, you must obtain prior written authorisation from Famatess Company. Any deep-linking, framing, or inline linking of our content is strictly prohibited without express written consent.",
+          "text3": "To request authorisation for linking: webmaster@famatesscompanysa@gmail.com"
+        },
+        "personalDataProtection": {
+          "text1": "Famatess Company processes personal data in accordance with the EU General Data Protection Regulation (GDPR — Regulation 2016/679) and applicable national data protection laws.",
+          "text2": "You have the right to access, rectify, erase, restrict, and port your personal data, as well as the right to object to certain processing activities. For full details, please consult our Personal Data Policy.",
+          "text3": "To exercise your rights or for any data protection enquiry, contact our Data Protection Officer at: dpo@famatesscompanysa@gmail.com",
+          "text4": "If you are not satisfied with our response, you have the right to lodge a complaint with the CNIL (Commission Nationale de l'Informatique et des Libertés) at www.cnil.fr."
+        },
+        "cookiesSection": {
+          "text1": "This website uses cookies and similar tracking technologies to ensure proper functionality, analyse traffic, and improve the user experience.",
+          "text2": "For full information on the cookies we use and to manage your preferences, please consult our Cookies Policy."
+        },
+        "applicableLaw": {
+          "text1": "These Legal Mentions are governed by and construed in accordance with French law, without prejudice to any mandatory provisions of local law applicable in the user's country of residence.",
+          "text2": "In the event of any dispute arising from the use of this website or its content that cannot be resolved amicably, exclusive jurisdiction is conferred upon the courts of Paris, France, unless mandatory consumer protection laws in the user's jurisdiction provide otherwise.",
+          "text3": "For users in Cameroonian markets, Famatess Company also complies with applicable national digital economy laws, including ECOWAS Supplementary Act A/SA.1/01/10 on Personal Data Protection and equivalent regional instruments.",
+          "text4": "Users based in the European Union also benefit from the protections afforded by applicable EU consumer law and may use the EU Online Dispute Resolution platform: ec.europa.eu/consumers/odr"
+        },
+        "contactSection": {
+          "text1": "For any questions regarding these Legal Mentions, or for any general enquiry about Famatess Company, please use the following contact details:",
+          "hqSubtitle": "the right service at the best price"
+        }
       }
     }
   }
