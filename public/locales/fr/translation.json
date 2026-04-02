@@ -1,6 +1,70 @@
 {
   "parts": {
     "components": {
+      "famActivities": {
+        "label": "Nos Activités",
+        "title": "Tout ce que nous",
+        "emphasis": "faisons pour vous.",
+        "sub": "FAMATESS COMPANY opère dans six domaines d'activité complémentaires — du véhicule neuf au chantier de construction, en passant par la logistique et le terrassement.",
+        "countLabel": "activités",
+        "activities": [
+          {
+            "category": "Vente de Véhicules",
+            "title": "Véhicules neufs & occasion",
+            "desc": "Toyota, Mitsubishi, Isuzu, Suzuki et Yamaha — une gamme complète pour particuliers, entreprises et institutions.",
+            "highlights": [
+              "Toyota Land Cruiser",
+              "Toyota Hilux",
+              "Prado & SUV",
+              "Motos Yamaha"
+            ]
+          },
+          {
+            "category": "Bâtiment & Travaux Publics",
+            "title": "Construction & Génie Civil",
+            "desc": "De la villa individuelle aux routes et infrastructures publiques — notre division BTP couvre tous vos projets de construction.",
+            "highlights": [
+              "Construction de maisons",
+              "Routes & voiries",
+              "Génie civil",
+              "Réhabilitation"
+            ]
+          },
+          {
+            "category": "Logistique & Transport",
+            "title": "Transport & Chaîne logistique",
+            "desc": "Import/export, transport lourd, distribution nationale et entreposage — une logistique complète à travers le Cameroun et la zone CEMAC.",
+            "highlights": [
+              "Transport lourd",
+              "Import / Export",
+              "Entreposage",
+              "Distribution"
+            ]
+          },
+          {
+            "category": "Terrassement",
+            "title": "Travaux de Terrassement",
+            "desc": "Déblaiement, excavation, nivellement et compactage pour préparer vos chantiers avec notre propre flotte d'engins lourds.",
+            "highlights": [
+              "Excavation",
+              "Nivellement",
+              "Compactage",
+              "Stabilisation"
+            ]
+          },
+          {
+            "category": "Dédouanement",
+            "title": "Formalités douanières",
+            "desc": "Accompagnement complet dans les formalités administratives et douanières pour l'importation et l'exportation de tous types de marchandises.",
+            "highlights": [
+              "Import / Export",
+              "Transit douanier",
+              "Documentation",
+              "Conformité"
+            ]
+          }
+        ]
+      },
       "brandsSection": {
         "label": "Marques & Produits",
         "title": "Bien plus que des\nvéhicules.",
