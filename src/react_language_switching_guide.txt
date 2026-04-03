@@ -1,0 +1,159 @@
+REACT LANGUAGE SWITCHING (ENGLISH / FRENCH) - FULL IMPLEMENTATION GUIDE
+
+PROJECT: Famatas Company Website
+TECH: React (Vite or CRA) + react-i18next
+
+------------------------------------------------------------
+STEP 1: INSTALL REQUIRED DEPENDENCIES
+------------------------------------------------------------
+
+Run the following command in your project:
+
+npm install i18next react-i18next
+
+------------------------------------------------------------
+STEP 2: CREATE PROJECT STRUCTURE
+------------------------------------------------------------
+
+Inside your src folder, create the following structure:
+
+src/
+  i18n.js
+  locales/
+    en.json
+    fr.json
+
+------------------------------------------------------------
+STEP 3: CREATE TRANSLATION FILES
+------------------------------------------------------------
+
+Create file: src/locales/en.json
+
+{
+  "HomePage": "Home",
+  "Activities": "Activities"
+  "AboutUs": "About us",
+  "Cookies": "Cookies",
+  "LegalMentions": "Legal Mentions",
+  "contact": "Contact",
+}
+
+Create file: src/locales/fr.json
+
+{
+  "home": "Accueil",
+  "Activitees": "Activitees"
+  "APropos": "A Propos",
+  "Cookies": "Cookies",
+  "cars": "Voitures",
+  "contact": "Contact",
+}
+
+------------------------------------------------------------
+STEP 4: CONFIGURE i18n
+------------------------------------------------------------
+
+Create file: src/i18n.js
+
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+
+import en from './locales/en.json';
+import fr from './locales/fr.json';
+
+i18n.use(initReactI18next).init({
+  resources: {
+    en: { translation: en },
+    fr: { translation: fr }
+  },
+  lng: localStorage.getItem('lang') || 'en',
+  fallbackLng: 'en',
+  interpolation: {
+    escapeValue: false
+  }
+});
+
+export default i18n;
+
+------------------------------------------------------------
+STEP 5: CONNECT i18n TO REACT
+------------------------------------------------------------
+
+In your main.jsx or index.js file, add:
+
+import './i18n';
+
+This ensures translations are loaded globally.
+
+------------------------------------------------------------
+STEP 6: USE TRANSLATIONS IN COMPONENTS
+------------------------------------------------------------
+
+Example (Navbar.jsx):
+
+import { useTranslation } from 'react-i18next';
+
+const { t } = useTranslation();
+
+Then replace text like this:
+
+<a>{t('home')}</a>
+<a>{t('cars')}</a>
+<button>{t('book_now')}</button>
+
+------------------------------------------------------------
+STEP 7: CREATE LANGUAGE SWITCH BUTTON
+------------------------------------------------------------
+
+Inside your Navbar:
+
+import { useTranslation } from 'react-i18next';
+
+const { i18n } = useTranslation();
+
+const changeLanguage = (lang) => {
+  i18n.changeLanguage(lang);
+  localStorage.setItem('lang', lang);
+};
+
+Add UI:
+
+<div style={{ display: 'flex', gap: 10 }}>
+  <span onClick={() => changeLanguage('en')} style={{ cursor: 'pointer' }}>
+    🇬🇧 EN
+  </span>
+
+  <span onClick={() => changeLanguage('fr')} style={{ cursor: 'pointer' }}>
+    🇫🇷 FR
+  </span>
+</div>
+
+------------------------------------------------------------
+STEP 8: IMPORTANT UX RULE
+------------------------------------------------------------
+
+Click EN → shows English
+Click FR → shows French
+
+DO NOT reverse behavior.
+
+------------------------------------------------------------
+STEP 9: TESTING
+------------------------------------------------------------
+
+- Click EN → text appears in English
+- Click FR → text appears in French
+- Refresh page → language stays the same
+
+------------------------------------------------------------
+STEP 10: OPTIONAL IMPROVEMENTS
+------------------------------------------------------------
+
+1. Detect browser language automatically
+2. Add animations when switching language
+3. Translate all pages and components
+4. Use language-based routes (/en, /fr)
+
+------------------------------------------------------------
+END OF GUIDE
+------------------------------------------------------------

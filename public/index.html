@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/Assets/favicon.ico" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/Assets/logo-no-bg.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+
+  <meta name="description" id="meta-description"
+    content="Famatess Company specializes in Famatess Automobile, Logistics, and BTP. We manage your full supply chain from import to delivery, including heavy equipment and infrastructure projects." />
+
+  <meta property="og:title" content="Famatess Company" />
+  <meta property="og:description"
+    content="Famatess Company offers professional services in Automobile sales, Logistics, and Building & Public Works (BTP) across Africa." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="%PUBLIC_URL%/Assets/logo-no-bg.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Famatess Company" />
+  <meta name="twitter:description"
+    content="Expert solutions in Automobile distribution, Logistics, and Infrastructure development by Famatess Company." />
+
+  <script>
+    /* Keeps your dynamic language switching for users while keeping static text for bots */
+    (function setDynamicDescription() {
+      try {
+        var lang = navigator.language || navigator.userLanguage;
+        var metaDesc = document.querySelector('meta[name="description"]');
+        var frText = "Famatess Company opère dans les secteurs de Famatess Automobile, de la Logistique et du BTP. Nous gérons votre chaîne logistique et vos projets d'infrastructure.";
+        var enText = "Famatess Company specializes in Famatess Automobile, Logistics, and BTP. We manage your full supply chain and infrastructure projects.";
+        var content = (lang && lang.toLowerCase().startsWith('fr')) ? frText : enText;
+        if (metaDesc) metaDesc.setAttribute('content', content);
+      } catch (e) { }
+    })();
+  </script>
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/Assets/apple-touch-icon.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Famatess Company | Automobile, Logistics & BTP</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
+</html>

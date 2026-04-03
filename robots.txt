@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /static/
+Disallow: /node_modules/
+
+Sitemap: https://famatesscompany.com/sitemap.xml
