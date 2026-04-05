@@ -3,41 +3,44 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <link rel="shortcut icon" href="%PUBLIC_URL%/Assets/logo-no-bg.png" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/Assets/apple-touch-icon.png" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
 
   <meta name="description" id="meta-description"
-    content="Famatess Company specializes in Famatess Automobile, Logistics, and BTP. We manage your full supply chain from import to delivery, including heavy equipment and infrastructure projects." />
+    content="Famatess Company specializes in Automobile, Logistics, and BTP. We manage your full supply chain and infrastructure projects." />
 
   <meta property="og:title" content="Famatess Company" />
   <meta property="og:description"
-    content="Famatess Company offers professional services in Automobile sales, Logistics, and Building & Public Works (BTP) across Africa." />
+    content="Famatess Company opère dans les secteurs de l'Automobile, de la Logistique et du BTP. Nous gérons votre chaîne logistique et vos projets d'infrastructure." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="%PUBLIC_URL%/Assets/logo-no-bg.png" />
+  <meta property="og:url" content="https://famatesscompany.com/" />
+  <meta property="og:image" content="/Assets/logo-no-bg.png" />
 
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Famatess Company" />
   <meta name="twitter:description"
     content="Expert solutions in Automobile distribution, Logistics, and Infrastructure development by Famatess Company." />
+  <meta name="twitter:image" content="/Assets/logo-no-bg.png" />
 
   <script>
-    /* Keeps your dynamic language switching for users while keeping static text for bots */
     (function setDynamicDescription() {
       try {
         var lang = navigator.language || navigator.userLanguage;
         var metaDesc = document.querySelector('meta[name="description"]');
-        var frText = "Famatess Company opère dans les secteurs de Famatess Automobile, de la Logistique et du BTP. Nous gérons votre chaîne logistique et vos projets d'infrastructure.";
-        var enText = "Famatess Company specializes in Famatess Automobile, Logistics, and BTP. We manage your full supply chain and infrastructure projects.";
+        var frText = "Famatess Company opère dans les secteurs de l'Automobile, de la Logistique et du BTP. Nous gérons votre chaîne logistique et vos projets d'infrastructure.";
+        var enText = "Famatess Company specializes in Automobile, Logistics, and BTP. We manage your full supply chain and infrastructure projects.";
         var content = (lang && lang.toLowerCase().startsWith('fr')) ? frText : enText;
         if (metaDesc) metaDesc.setAttribute('content', content);
       } catch (e) { }
     })();
   </script>
 
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/Assets/apple-touch-icon.png" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="manifest" href="/manifest.json" />
   <title>Famatess Company | Automobile, Logistics & BTP</title>
 </head>
 
